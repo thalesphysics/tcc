@@ -54,3 +54,36 @@ ou
     \langle \psi | \psi \rangle = (\int dk ~c^*(k)\langle k |)(\int dk' ~c(k')|k'\rangle)=\int\int dk dk' ~c^*(k)c(k')\delta(k-k') = \int dk ~|c(k)|^2 = 1,
 \end{equation}
 como deve ser.
+
+\subsection{Terceiro Postulado}
+
+Uma medida de uma variável física como a posição, momento ou energia, em um sistema quântico, é representado por uma operação no estado do sistema. \
+Essa operação é mediada por um objeto chamado operador, $\hat A$, que é linear e atua sobre o ket, de modo que os únicos valores possíveis de serem obtidos \
+pela medição, $a_k$, são os que satisfazem a equação
+\begin{equation}
+    \hat A |\psi_k \rangle = a_k |\psi_k \rangle.
+\end{equation}
+Os estados $|\psi_k\rangle$ são conhecidos como autoestados de $\hat A$, enquanto que $a_k$ são seus autovalores.
+
+\subsection{Quarto Postulado}
+
+Os operadores $\hat x$ e $\hat p$ tem sua atuação conhecida na base de posições, 
+\begin{equation}
+    \hat x |\psi\rangle =  \int dx ~\psi(x) \hat x|x \rangle = \int dx ~\psi(x) x|x \rangle
+\end{equation}
+demonstrando que nessa base
+\begin{equation}
+    \langle x|\hat x |\psi\rangle =  x \psi(x).
+\end{equation}
+Além disso, pode-se obter apartir dessa relação, que
+\begin{equation}
+    \langle x|\hat p |\psi\rangle =  -\frac{i}{\hbar} \nabla \psi(x).
+\end{equation}
+O quarto postulado afirma que se conhecemos uma função clássica $f(x,p)$ que depende da posição e do momento, e que queremos medi-la, podemos obter \
+o seu respectivo operador na mecânica quântica promovendo a posição e o momento aos operadores de posição e moemnto,
+\begin{equation}
+    x, ~p \to \hat x, ~\hat p
+\end{equation}
+\begin{equation}
+    f(x,p) \to f(\hat x,\hat p)
+\end{equation}
