@@ -1,0 +1,13 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Einstein 1905]{einstein1905}
+\abntrefinfo{Einstein}{EINSTEIN}{1905}
+{EINSTEIN, A. Zur elektrodynamik bewegter körper.
+\emph{Annalen der Physik}, 1905.}
+
+\end{thebibliography}

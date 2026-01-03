@@ -1,0 +1,56 @@
+\chapter{Fundamentacao Teórica}
+
+\section{Postulados da Mecânica Quântica}
+
+A física quântica surgiu em meio a descoberta de que tanto ondas eletromagnéticas \
+quanto partículas, poderiam apresentar comportamentos ondulatóricos e corpusculares a depender do experimento. \
+Além disso, a formulaçao clássica baseada nas leis de newton falhava na descrição de tais sistemas, o que \
+levou a um grande esforço da comunidade científica por um formalismo mais acertivo.
+
+A descrição inicial mais completa da mecânica quântica aborda uma descrição probabilística dos sistemas em pequena escala. \
+Essa descrição é muito motivada por fatos experimetais e abordagens teóricas antecedentes, \
+tais como a dualidade onda-partícula, a ideia de onda de matéria de de Broglie, e a quantização \
+da energia de Planck. O sucesso empírico dessa teoria faz com que seja amplamente utilizada \
+em pesquisas atuais, em especial na física da matéria condensada.
+
+Os aspectos mais fundamentais da mecânica quântica podem ser resumidos em seus postulados.
+
+\subsection{Primeiro Postulado}
+
+Assim como na mecânica clássica os sistemas possuem um conjunto de variáveis que definem o estado de um sistema, \
+como por exemplo a posição e o momento, na mecânica quântica assumimos que nosso sistema também pode assumir \
+um conjunto de estados representados como vetores no espaço de Hilbert denotados por $|k\rangle$. Contudo, diferente da mecânica clássica, \
+um sistema quântico pode estar em uma superposição de estados físicos. Isso é descrito matemáticamente como uma \
+combinação linear no caso de estados discretos,
+\begin{equation}
+    |\psi\rangle=\sum_k c_k |k\rangle,
+\end{equation}
+como por exemplo o spin do eletron, ou, quando lidamos com estados contínuos, como a posição de uma partícula, \
+a superposição se da por uma integral sobre todos os estados,
+\begin{equation}
+    |\psi \rangle = \int dk ~c(k) |k \rangle.
+\end{equation}
+
+\subsection{Segundo Postulado}
+
+De fato, o estado de um sistema quantico ser uma combinação linear de seus possíveis estados \
+não tem um significado físico evidente. Portanto, essa interpretação é postulada de modo que possamos compreender \
+o que o formalismo matemático representa na realidade. O segundo postulado da mecânica quântica afirma que se os estados são ortonormais, isso é, 
+\begin{equation}
+    \langle i | j \rangle = \delta_{ij}
+\end{equation}
+no caso discreto, e
+\begin{equation}
+    \langle \xi | \xi' \rangle = \delta(\xi-\xi')
+\end{equation}
+no caso contínuo, a probabilidade \
+de se encontrar um sistema quântico no estado $|k\rangle$ é $|\langle k | \psi \rangle|^2$, os coeficientes da combinação linear, \
+de modo que a probabilidade de achar o sistem em qualquer estado é
+\begin{equation}
+    \langle \psi | \psi \rangle = (\sum_k c_k^* \langle k |)(\sum_k c_k |k\rangle) = \sum_k |c_k|^2 = \sum_k |\langle k | \psi \rangle|^2 = 1
+\end{equation}
+ou
+\begin{equation}
+    \langle \psi | \psi \rangle = (\int dk ~c^*(k)\langle k |)(\int dk' ~c(k')|k'\rangle)=\int\int dk dk' ~c^*(k)c(k')\delta(k-k') = \int dk ~|c(k)|^2 = 1,
+\end{equation}
+como deve ser.
