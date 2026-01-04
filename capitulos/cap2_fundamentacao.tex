@@ -71,13 +71,12 @@ Os operadores $\hat x$ e $\hat p$ tem sua atuação conhecida na base de posiç�
 \begin{equation}
     \hat x |\psi\rangle =  \int dx ~\psi(x) \hat x|x \rangle = \int dx ~\psi(x) x|x \rangle
 \end{equation}
-demonstrando que nessa base
 \begin{equation}
     \langle x|\hat x |\psi\rangle =  x \psi(x).
 \end{equation}
-Além disso, pode-se obter apartir dessa relação, que
+Além disso, pode-se obter apartir dessa relação que
 \begin{equation}
-    \langle x|\hat p |\psi\rangle =  -\frac{i}{\hbar} \nabla \psi(x).
+    \langle x|\hat p |\psi\rangle =  -i\hbar \frac{\partial}{\partial x} \psi(x).
 \end{equation}
 O quarto postulado afirma que se conhecemos uma função clássica $f(x,p)$ que depende da posição e do momento, e que queremos medi-la, podemos obter \
 o seu respectivo operador na mecânica quântica promovendo a posição e o momento aos operadores de posição e moemnto,
@@ -87,3 +86,54 @@ o seu respectivo operador na mecânica quântica promovendo a posição e o mome
 \begin{equation}
     f(x,p) \to f(\hat x,\hat p)
 \end{equation}
+
+\subsection{Quinto Postulado}
+
+Se soubermos o estado de um sistema quântico em um dado instante, e queremos saber qual será seu estado \
+em um período de tempo depois, recorremos ao quinto postulado que afirma que a evolução temporal de um sistema quântico \
+é descrita pela equação de Schrodinger,
+\begin{equation}
+i\hbar \frac{\partial}{\partial t}|\psi\rangle = \hat H |\psi\rangle
+\end{equation}
+em que $\hat H$ é o operador Hamiltoniano,
+\begin{equation}
+    \hat H = \frac{\hat p^2}{2m} + \hat V,
+\end{equation}
+cujos autovalores são as possíveis energias do sistema.
+
+\section{Estados Estacionários}
+
+Em muitas situações importantes na física, o a energia potêncial não depende do tempo, \
+ou simplesmente tratamos como se nao dependesse. Nesse caso especial, podemos reescrever \
+equação de Schrodinger de forma mais conveniente.
+
+Partindo da equação de Schrodinger e projetando na base de posição, temos que
+\begin{equation}
+    i\hbar \langle x | \frac{\partial}{\partial t}|\Psi\rangle = \langle x |(\frac{\hat p^2}{2m} + \hat V) |\Psi\rangle,
+\end{equation}
+logo
+\begin{equation}
+    i\hbar \frac{\partial}{\partial t}\Psi(x,t) = (- \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)) \Psi(x,t)
+\end{equation}
+Assumindo uma solução do tipo $\Psi(x,t)=\psi(x)\phi(t)$, é possível separar em duas equações
+\begin{equation}
+\frac{i\hbar}{\phi(t)} \frac{\partial}{\partial t}\phi(t) = \frac{1}{\psi(x)}(- \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)) \psi(x)=E.
+\end{equation}
+A equação para $\phi(t)$ pode ser resolvida por integração, 
+\begin{equation}
+    \phi(t) = e^{-i\frac{E}{\hbar}}
+\end{equation}
+enquanto que a equação para $\psi(x)$,
+\begin{equation}
+    (- \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)) \psi(x) = E \psi(x),
+\end{equation}
+depende do potêncial, e é conhecida como equação de Schrodinger independente do tempo. \
+Ainda de maneira mais geral podemos escrever essa equação como
+\begin{equation}
+    (- \frac{\hbar^2 \hat p^2}{2m} + V(\hat x)) |\psi\rangle = E |\psi\rangle,
+\end{equation}
+com $|\Psi(t)\rangle = e^{-i\frac{E}{\hbar}} |\psi\rangle$. \
+Esse tipo de equação é chamado de solução estacionária, e possui algumas características importantes.
+
+
+
