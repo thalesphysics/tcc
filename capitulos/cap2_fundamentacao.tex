@@ -1,139 +1,162 @@
-\chapter{Fundamentacao Teórica}
+\chapter{Fundamentação Teórica}
 
 \section{Postulados da Mecânica Quântica}
 
-A física quântica surgiu em meio a descoberta de que tanto ondas eletromagnéticas \
-quanto partículas, poderiam apresentar comportamentos ondulatóricos e corpusculares a depender do experimento. \
-Além disso, a formulaçao clássica baseada nas leis de newton falhava na descrição de tais sistemas, o que \
-levou a um grande esforço da comunidade científica por um formalismo mais acertivo.
+A física quântica surgiu a partir da descoberta de que tanto ondas eletromagnéticas quanto partículas poderiam exibir comportamentos ondulatórios e corpusculares a depender do experimento realizado. Além disso a formulação clássica baseada nas leis de Newton falhava na descrição desses sistemas o que levou a um grande esforço da comunidade científica na busca por um formalismo mais adequado.
 
-A descrição inicial mais completa da mecânica quântica aborda uma descrição probabilística dos sistemas em pequena escala. \
-Essa descrição é muito motivada por fatos experimetais e abordagens teóricas antecedentes, \
-tais como a dualidade onda-partícula, a ideia de onda de matéria de de Broglie, e a quantização \
-da energia de Planck. O sucesso empírico dessa teoria faz com que seja amplamente utilizada \
-em pesquisas atuais, em especial na física da matéria condensada.
+A descrição inicial mais completa da mecânica quântica adota uma abordagem probabilística para sistemas em escala microscópica. Essa descrição é fortemente motivada por evidências experimentais e por abordagens teóricas anteriores como a dualidade onda-partícula a hipótese da onda de matéria de de Broglie e a quantização da energia proposta por Planck. O sucesso empírico dessa teoria faz com que ela seja amplamente utilizada em pesquisas atuais em especial na física da matéria condensada.
+
+É importante notar que a mecânica quântica tratada aqui é especificamente construída para sistemas de férmions em regime não relativístico. Ainda assim é possível adicionar termos nas equações que conduzem os resultados a valores mais próximos de regimes relativísticos.
 
 Os aspectos mais fundamentais da mecânica quântica podem ser resumidos em seus postulados.
 
 \subsection{Primeiro Postulado}
 
-Assim como na mecânica clássica os sistemas possuem um conjunto de variáveis que definem o estado de um sistema, \
-como por exemplo a posição e o momento, na mecânica quântica assumimos que nosso sistema também pode assumir \
-um conjunto de estados representados como vetores no espaço de Hilbert denotados por $|k\rangle$. Contudo, diferente da mecânica clássica, \
-um sistema quântico pode estar em uma superposição de estados físicos. Isso é descrito matemáticamente como uma \
-combinação linear no caso de estados discretos,
+Assim como na mecânica clássica os sistemas são definidos por um conjunto de variáveis de estado – como posição e momento – na mecânica quântica assume-se que um sistema também pode ser representado por um conjunto de estados descritos como vetores no espaço de Hilbert denotados por $|k\rangle$. Contudo diferentemente da mecânica clássica um sistema quântico pode estar em uma superposição de estados físicos. Matematicamente isso é descrito como uma combinação linear no caso de estados discretos (como o spin do elétron):
 \begin{equation}
-    |\psi\rangle=\sum_k c_k |k\rangle,
+|\psi\rangle = \sum_k c_k |k\rangle,
 \end{equation}
-como por exemplo o spin do eletron, ou, quando lidamos com estados contínuos, como a posição de uma partícula, \
-a superposição se da por uma integral sobre todos os estados,
+ou para estados contínuos (como a posição de uma partícula) como uma integral sobre todos os estados:
 \begin{equation}
-    |\psi \rangle = \int dk ~c(k) |k \rangle.
+|\psi \rangle = \int dk c(k) |k \rangle.
 \end{equation}
 
 \subsection{Segundo Postulado}
 
-De fato, o estado de um sistema quantico ser uma combinação linear de seus possíveis estados \
-não tem um significado físico evidente. Portanto, essa interpretação é postulada de modo que possamos compreender \
-o que o formalismo matemático representa na realidade. O segundo postulado da mecânica quântica afirma que se os estados são ortonormais, isso é, 
+O fato de o estado de um sistema quântico ser uma combinação linear de seus possíveis estados não possui por si só um significado físico evidente. Portanto uma interpretação é postulada para que possamos compreender o que o formalismo matemático representa na realidade. O segundo postulado da mecânica quântica afirma que se os estados são ortonormais – isto é
 \begin{equation}
-    \langle i | j \rangle = \delta_{ij}
+\langle i | j \rangle = \delta_{ij}
 \end{equation}
-no caso discreto, e
+no caso discreto e
 \begin{equation}
-    \langle \xi | \xi' \rangle = \delta(\xi-\xi')
+\langle \xi | \xi' \rangle = \delta(\xi-\xi')
 \end{equation}
-no caso contínuo, a probabilidade \
-de se encontrar um sistema quântico no estado $|k\rangle$ é $|\langle k | \psi \rangle|^2$, os coeficientes da combinação linear, \
-de modo que a probabilidade de achar o sistem em qualquer estado é
+no caso contínuo – então a probabilidade de se encontrar o sistema no estado $|k\rangle$ é dada por $|\langle k | \psi \rangle|^2$. Desse modo a probabilidade total de encontrar o sistema em qualquer estado é unitária:
 \begin{equation}
-    \langle \psi | \psi \rangle = (\sum_k c_k^* \langle k |)(\sum_k c_k |k\rangle) = \sum_k |c_k|^2 = \sum_k |\langle k | \psi \rangle|^2 = 1
+\langle \psi | \psi \rangle = \left( \sum_k c_k^* \langle k | \right) \left( \sum_k c_k |k\rangle \right) = \sum_k |c_k|^2 = \sum_k |\langle k | \psi \rangle|^2 = 1
 \end{equation}
-ou
+no caso discreto e
 \begin{equation}
-    \langle \psi | \psi \rangle = (\int dk ~c^*(k)\langle k |)(\int dk' ~c(k')|k'\rangle)=\int\int dk dk' ~c^*(k)c(k')\delta(k-k') = \int dk ~|c(k)|^2 = 1,
+\langle \psi | \psi \rangle = \left( \int dk c^*(k)\langle k | \right) \left( \int dk' c(k')|k'\rangle \right) = \int dk |c(k)|^2 = 1
 \end{equation}
-como deve ser.
+no caso contínuo como deve ser.
 
 \subsection{Terceiro Postulado}
 
-Uma medida de uma variável física como a posição, momento ou energia, em um sistema quântico, é representado por uma operação no estado do sistema. \
-Essa operação é mediada por um objeto chamado operador, $\hat A$, que é linear e atua sobre o ket, de modo que os únicos valores possíveis de serem obtidos \
-pela medição, $a_k$, são os que satisfazem a equação
+A medição de uma grandeza física – como posição momento ou energia – em um sistema quântico é representada por uma operação atuando sobre o estado do sistema. Essa operação é mediada por um objeto denominado operador $\hat{A}$ que é linear e atua sobre o ket. Os únicos valores possíveis de serem obtidos na medição $a_k$ são aqueles que satisfazem a equação de autovalores:
 \begin{equation}
-    \hat A |\psi_k \rangle = a_k |\psi_k \rangle.
+\hat{A} |\psi_k \rangle = a_k |\psi_k \rangle.
 \end{equation}
-Os estados $|\psi_k\rangle$ são conhecidos como autoestados de $\hat A$, enquanto que $a_k$ são seus autovalores.
+Os estados $|\psi_k\rangle$ são conhecidos como autoestados de $\hat{A}$ enquanto $a_k$ são seus autovalores.
 
 \subsection{Quarto Postulado}
 
-Os operadores $\hat x$ e $\hat p$ tem sua atuação conhecida na base de posições, 
+Os operadores $\hat{x}$ e $\hat{p}$ têm sua ação conhecida na base de posições:
 \begin{equation}
-    \hat x |\psi\rangle =  \int dx ~\psi(x) \hat x|x \rangle = \int dx ~\psi(x) x|x \rangle
+\hat{x} |\psi\rangle = \int dx \psi(x) x |x \rangle,
+\end{equation}
+de modo que
+\begin{equation}
+\langle x|\hat{x} |\psi\rangle = x \psi(x).
+\end{equation}
+Além disso a partir dessa relação pode-se obter
+\begin{equation}
+\langle x|\hat{p} |\psi\rangle = -i\hbar \frac{\partial}{\partial x} \psi(x).
+\end{equation}
+O quarto postulado afirma que se conhecemos uma função clássica $f(x,p)$ que depende da posição e do momento o operador quântico correspondente é obtido promovendo as variáveis clássicas aos respectivos operadores:
+\begin{equation}
+x, ~p \longrightarrow \hat{x}, ~\hat{p}
 \end{equation}
 \begin{equation}
-    \langle x|\hat x |\psi\rangle =  x \psi(x).
-\end{equation}
-Além disso, pode-se obter apartir dessa relação que
-\begin{equation}
-    \langle x|\hat p |\psi\rangle =  -i\hbar \frac{\partial}{\partial x} \psi(x).
-\end{equation}
-O quarto postulado afirma que se conhecemos uma função clássica $f(x,p)$ que depende da posição e do momento, e que queremos medi-la, podemos obter \
-o seu respectivo operador na mecânica quântica promovendo a posição e o momento aos operadores de posição e moemnto,
-\begin{equation}
-    x, ~p \to \hat x, ~\hat p
-\end{equation}
-\begin{equation}
-    f(x,p) \to f(\hat x,\hat p)
+f(x,p) \longrightarrow f(\hat{x},\hat{p}).
 \end{equation}
 
 \subsection{Quinto Postulado}
 
-Se soubermos o estado de um sistema quântico em um dado instante, e queremos saber qual será seu estado \
-em um período de tempo depois, recorremos ao quinto postulado que afirma que a evolução temporal de um sistema quântico \
-é descrita pela equação de Schrodinger,
+Se conhecermos o estado de um sistema quântico em um dado instante e desejamos saber qual será seu estado após um intervalo de tempo recorremos ao quinto postulado. Ele afirma que a evolução temporal de um sistema quântico é descrita pela equação de Schrödinger:
 \begin{equation}
-i\hbar \frac{\partial}{\partial t}|\psi\rangle = \hat H |\psi\rangle
+i\hbar \frac{\partial}{\partial t}|\psi\rangle = \hat{H} |\psi\rangle,
 \end{equation}
-em que $\hat H$ é o operador Hamiltoniano,
+em que $\hat{H}$ é o operador hamiltoniano
 \begin{equation}
-    \hat H = \frac{\hat p^2}{2m} + \hat V,
+\hat{H} = \frac{\hat{p}^2}{2m} + \hat{V},
 \end{equation}
-cujos autovalores são as possíveis energias do sistema.
+cujos autovalores correspondem às possíveis energias do sistema.
 
 \section{Estados Estacionários}
 
-Em muitas situações importantes na física, o a energia potêncial não depende do tempo, \
-ou simplesmente tratamos como se nao dependesse. Nesse caso especial, podemos reescrever \
-equação de Schrodinger de forma mais conveniente.
+Em muitas situações importantes na física a energia potencial não depende do tempo ou pode ser tratada como tal. Nesse caso especial a equação de Schrödinger pode ser reescrita de forma mais conveniente.
 
-Partindo da equação de Schrodinger e projetando na base de posição, temos que
+Partindo da equação de Schrödinger e projetando na base de posição temos
 \begin{equation}
-    i\hbar \langle x | \frac{\partial}{\partial t}|\Psi\rangle = \langle x |(\frac{\hat p^2}{2m} + \hat V) |\Psi\rangle,
+i\hbar \langle x | \frac{\partial}{\partial t}|\Psi(t)\rangle = \langle x | \left( \frac{\hat{p}^2}{2m} + \hat{V} \right) |\Psi(t)\rangle,
 \end{equation}
 logo
 \begin{equation}
-    i\hbar \frac{\partial}{\partial t}\Psi(x,t) = (- \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)) \Psi(x,t)
+i\hbar \frac{\partial}{\partial t}\Psi(x,t) = \left( -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x) \right) \Psi(x,t).
 \end{equation}
-Assumindo uma solução do tipo $\Psi(x,t)=\psi(x)\phi(t)$, é possível separar em duas equações
+Assumindo uma solução na forma $\Psi(x,t)=\psi(x)\phi(t)$ é possível separar as variáveis obtendo duas equações independentes:
 \begin{equation}
-\frac{i\hbar}{\phi(t)} \frac{\partial}{\partial t}\phi(t) = \frac{1}{\psi(x)}(- \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)) \psi(x)=E.
+\frac{i\hbar}{\phi(t)} \frac{\partial \phi(t)}{\partial t} = \frac{1}{\psi(x)} \left( -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x) \right) \psi(x) = E.
 \end{equation}
-A equação para $\phi(t)$ pode ser resolvida por integração, 
+A equação para $\phi(t)$ pode ser resolvida por integração direta:
 \begin{equation}
-    \phi(t) = e^{-i\frac{E}{\hbar}}
+\phi(t) = e^{-i\frac{E}{\hbar}t},
 \end{equation}
-enquanto que a equação para $\psi(x)$,
+enquanto a equação para $\psi(x)$
 \begin{equation}
-    (- \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)) \psi(x) = E \psi(x),
+\left( -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x) \right) \psi(x) = E \psi(x),
 \end{equation}
-depende do potêncial, e é conhecida como equação de Schrodinger independente do tempo. \
-Ainda de maneira mais geral podemos escrever essa equação como
+depende do potencial e é conhecida como equação de Schrödinger independente do tempo. De maneira mais geral podemos escrevê-la na forma operacional:
 \begin{equation}
-    (- \frac{\hbar^2 \hat p^2}{2m} + V(\hat x)) |\psi\rangle = E |\psi\rangle,
+\left( \frac{\hat{p}^2}{2m} + V(\hat{x}) \right) |\psi\rangle = E |\psi\rangle,
 \end{equation}
-com $|\Psi(t)\rangle = e^{-i\frac{E}{\hbar}} |\psi\rangle$. \
-Esse tipo de equação é chamado de solução estacionária, e possui algumas características importantes.
+com $|\Psi(t)\rangle = e^{-iEt/\hbar} |\psi\rangle$. Esse tipo de solução que satisfaz a equação de Schrödinger independente do tempo é denominado estado estacionário e apresenta propriedades importantes.
 
+A primeira e mais relevante característica dos estados estacionários decorre do fato de que eles possuem um valor de energia bem definido o qual não se altera com a evolução temporal pois
+\begin{equation}
+\hat{H} |\Psi(t)\rangle = e^{-iEt/\hbar} \hat{H} |\psi\rangle = E e^{-iEt/\hbar} |\psi\rangle.
+\end{equation}
+Além disso na base de posições a densidade de probabilidade pode ser obtida apenas a partir da parte espacial da função de onda:
+\begin{equation}
+|\Psi(x,t)|^2 = |e^{-iEt/\hbar}|^2 |\psi(x)|^2 = |\psi(x)|^2.
+\end{equation}
 
+\section{Partículas Idênticas}
 
+Em muitos sistemas quânticos podemos encontrar situações em que um conjunto de partículas é indistinguível isto é não apresenta diferenças em seus números quânticos intrínsecos. Um exemplo importante é um conjunto de elétrons com o mesmo spin: se trocarmos o estado de um elétron pelo de outro nenhuma mudança efetiva ocorre no sistema.
+
+Suponhamos duas partículas idênticas cada uma em um estado quântico. O estado do sistema pode ser denotado por
+\begin{equation}
+|\Psi\rangle = |\psi_1,\phi_2\rangle.
+\end{equation}
+Podemos definir um operador chamado operador de troca que permuta os estados das duas partículas:
+\begin{equation}
+\hat{P} |\psi_1,\phi_2\rangle = p|\psi_2,\phi_1\rangle.
+\end{equation}
+Exigimos que ao aplicar esse operador duas vezes consecutivas recuperemos o estado original:
+\begin{equation}
+\hat{P}^2 |\psi_1,\phi_2\rangle = p^2|\psi_1,\phi_2\rangle = |\psi_1,\phi_2 \rangle,
+\end{equation}
+o que implica
+\begin{equation}
+p = \pm 1.
+\end{equation}
+Se o hamiltoniano do sistema é invariante sob a troca de partículas – o que geralmente ocorre nesse tipo de problema – então $[\hat{P} \hat{H}] = 0$. Portanto podemos encontrar estados que são autoestados simultâneos da energia e do operador de troca.
+
+É importante notar que o valor de $p$ é uma característica intrínseca do tipo de partícula: $+1$ para bósons e $-1$ para férmions. É um fato experimental que os elétrons objetos de maior interesse aqui são férmions. Portanto sua descrição em termos de autoestados de energia deve satisfazer
+\begin{equation}
+|\Psi\rangle = \frac{1}{\sqrt{2}} \left( |\psi_1,\phi_2\rangle - |\psi_2,\phi_1\rangle \right).
+\end{equation}
+Evidentemente se houver dois férmions no mesmo estado quântico o estado se anula tornando-se não normalizável. Isso viola o segundo postulado pois o sistema perderia a interpretação probabilística e portanto não corresponde a um estado físico possível. Essa impossibilidade de dois elétrons ocuparem o mesmo estado quântico é conhecida como princípio de exclusão de Pauli.
+
+Uma generalização desse princípio pode ser feita escrevendo o estado de $n$ elétrons como o determinante de uma matriz denominado determinante de Slater.
+
+\section{Sistemas Multieletrônicos}
+\subsection{Aproximação de Born-Oppenheimer}
+\subsection{Aproximação de Elétrons Não Interagentes}
+
+\section{A Teoria do Funcional da Densidade}
+\subsection{Primeiro Teorema}
+\subsection{Segundo Teorema}
+\subsection{A Equação de Kohn-Sham}

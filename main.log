@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.2)  3 JAN 2026 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.4)  4 JAN 2026 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,7 +516,7 @@ Package: babel 2022/01/26 3.70 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language64). Reported on input line 111.
+(babel)             (\language67). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -1015,22 +1015,7 @@ l.113
 
 
 
-]
-Overfull \hbox (5.4633pt too wide) detected at line 55
-[][]\OMS/lmsy/m/n/12 h\OML/lmm/m/it/12  \OMS/lmsy/m/n/12 j\OML/lmm/m/it/12  \OM
-S/lmsy/m/n/12 i \OT1/lmr/m/n/12 = ([] \OML/lmm/m/it/12 dk c[]\OT1/lmr/m/n/12 (\
-OML/lmm/m/it/12 k\OT1/lmr/m/n/12 )\OMS/lmsy/m/n/12 h\OML/lmm/m/it/12 k\OMS/lmsy
-/m/n/12 j\OT1/lmr/m/n/12 )([] \OML/lmm/m/it/12 dk[] c\OT1/lmr/m/n/12 (\OML/lmm/
-m/it/12 k[]\OT1/lmr/m/n/12 )\OMS/lmsy/m/n/12 j\OML/lmm/m/it/12 k[]\OMS/lmsy/m/n
-/12 i\OT1/lmr/m/n/12 ) = [] [] \OML/lmm/m/it/12 dkdk[] c[]\OT1/lmr/m/n/12 (\OML
-/lmm/m/it/12 k\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 c\OT1/lmr/m/n/12 (\OML/lmm/m/it
-/12 k[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 ^^N\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 k
- \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 k[]\OT1/lmr/m/n/12 ) = [] \OML/lmm/m/it/
-12 dk \OMS/lmsy/m/n/12 j\OML/lmm/m/it/12 c\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 k\O
-T1/lmr/m/n/12 )\OMS/lmsy/m/n/12 j[] \OT1/lmr/m/n/12 = 1\OML/lmm/m/it/12 ;
- []
-
-[7] [8]) [9]
+] [7] [8] [9]) [10]
 \openout2 = `capitulos/cap3_metodologia.aux'.
 
 
@@ -1043,7 +1028,7 @@ No file capitulos/cap4_resultados.tex.
 No file capitulos/cap5_conclusao.tex.
 (./main.bbl
 bibitemlist
-) [10
+) [11
 
 
 
@@ -1074,11 +1059,11 @@ bibitemlist
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18005 strings out of 478287
- 286790 string characters out of 5849290
+ 18029 strings out of 478287
+ 287067 string characters out of 5849290
  654457 words of memory out of 5000000
- 35758 multiletter control sequences out of 15000+600000
- 527837 words of font info for 111 fonts, out of 8000000 for 9000
+ 35766 multiletter control sequences out of 15000+600000
+ 527841 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,93p,1001b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texm
@@ -1096,9 +1081,9 @@ f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (11 pages, 377114 bytes).
+Output written on main.pdf (12 pages, 397076 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 32902 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 32966 words of extra memory for PDF output out of 35830 (max. 10000000)
 
