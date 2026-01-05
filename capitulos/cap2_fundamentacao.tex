@@ -122,7 +122,7 @@ Além disso na base de posições a densidade de probabilidade pode ser obtida a
 |\Psi(x,t)|^2 = |e^{-iEt/\hbar}|^2 |\psi(x)|^2 = |\psi(x)|^2.
 \end{equation}
 
-\section{Partículas Idênticas}
+\section{Princípio da Exclusão de Pauli}
 
 Em muitos sistemas quânticos podemos encontrar situações em que um conjunto de partículas é indistinguível isto é não apresenta diferenças em seus números quânticos intrínsecos. Um exemplo importante é um conjunto de elétrons com o mesmo spin: se trocarmos o estado de um elétron pelo de outro nenhuma mudança efetiva ocorre no sistema.
 
@@ -150,11 +150,77 @@ Se o hamiltoniano do sistema é invariante sob a troca de partículas – o que 
 \end{equation}
 Evidentemente se houver dois férmions no mesmo estado quântico o estado se anula tornando-se não normalizável. Isso viola o segundo postulado pois o sistema perderia a interpretação probabilística e portanto não corresponde a um estado físico possível. Essa impossibilidade de dois elétrons ocuparem o mesmo estado quântico é conhecida como princípio de exclusão de Pauli.
 
-Uma generalização desse princípio pode ser feita escrevendo o estado de $n$ elétrons como o determinante de uma matriz denominado determinante de Slater.
+Uma generalização desse princípio pode ser feita escrevendo o estado de $N$ elétrons como o determinante de uma matriz denominado determinante de Slater.
+
+\begin{equation}
+    \label{eq:slater_matrix_kets}
+    |\Psi\rangle = \frac{1}{\sqrt{N!}}
+    \begin{vmatrix}
+        |\phi_1\rangle_1 & |\phi_2\rangle_1 & \cdots & |\phi_N\rangle_1 \\
+        |\phi_1\rangle_2 & |\phi_2\rangle_2 & \cdots & |\phi_N\rangle_2 \\
+        \vdots & \vdots & \ddots & \vdots \\
+        |\phi_1\rangle_N & |\phi_2\rangle_N & \cdots & |\phi_N\rangle_N \\
+    \end{vmatrix}
+\end{equation}
+em que $|\phi_i\rangle_j$ representa o estado i da particula j.
 
 \section{Sistemas Multieletrônicos}
+
+Em muitos contextos relacionados ao estudo de propriedades de materiais, é necessário lidar com sistemas de muitos átomos, e portanto, muitos elétrons. \
+A busca por um entendimento mais profundo desses sistemas nos leva a formulação de uma teoria geral, \
+uma série de Aproximação que nos ajudam a lidar com esses sistemas, e algumas correçõe que devem ser feitas \
+para corrigir incongruencias teóricas.
+
+O objeto mais fundamental no estudo de sistemas Multieletrônicos é a hamiltoniana geral para um conjunto de átomos. \
+Como tratamos de um sistema isolado e conservativo, a hamiltoniana é apeans a soma da energia cinética e potencial dos prótons e elétrons, \
+que nesse caso se resume ao potencial de coulomb;
+\begin{equation}
+    H(r,p) = \sum_k \frac{p^2_{k}}{2m_e} + \sum_k \frac{P^2_{k}}{2m_n} + \frac{1}{2} \sum_{i \neq j} \frac{k e^2 Z_i Z_j}{|\vec{R}_i-\vec{R}_j|} - \sum_{i,j} \frac{k e^2 Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{ke^2}{|\vec{r}_i - \vec{r}_j|}
+\end{equation}
+pelo terceiro postulado, o operador hamiltoniano é obtido promovendo a posição e o momento a operadores. Assim, 
+\begin{equation}
+    \hat H =  \sum_k \frac{\hat p_{k}^2}{2m_e} + \sum_k \frac{\hat P_{k}^2}{2m_n} + \frac{1}{2} \sum_{i \neq j} \frac{k e^2 Z_i Z_j}{|\hat R_i-\hat R_j|} - \sum_{i,j} \frac{k e^2 Z_i}{|\hat{R}_i-\hat{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{ke^2}{|\hat{r}_i - \hat{r}_j|}
+\end{equation}
+e na base de posições,
+\begin{equation}
+    \hat H = - \sum_k \frac{\hbar^2}{2m_e}\nabla^2_{k} - \sum_k \frac{\hbar^2}{2m_n}\nabla'^2_{k} + \frac{1}{2} \sum_{i \neq j} \frac{k e^2 Z_i Z_j}{|\vec{R}_i-\vec{R}_j|} - \sum_{i,j} \frac{k e^2 Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{ke^2}{|\vec{r}_i - \vec{r}_j|}
+\end{equation}
+ou em unidades atômicas,
+\begin{equation}
+    \label{multieletronh}
+    \hat H = - \sum_k \frac{1}{2}\nabla^2_{k} - \sum_k \frac{1}{2m_n}\nabla'^2_{k} + \frac{1}{2} \sum_{i \neq j} \frac{Z_i Z_j}{|\vec{R}_i-\vec{R}_j|} - \sum_{i,j} \frac{Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{1}{|\vec{r}_i - \vec{r}_j|}
+\end{equation}
 \subsection{Aproximação de Born-Oppenheimer}
-\subsection{Aproximação de Elétrons Não Interagentes}
+
+Uma importante consideração que pode ser feita sobre a equação \ref{multieletronh}, é que a massa de um próton é \
+muito maior que de um elétron. Isso nos leva a considerar que a dinâmica dos elétrons pode ser vista como instântanea em relação \
+aos prótons, como se os prótons fossem fixos e os elétrons sempre em equilíbrio distribuidos ao redor deles. \
+Portanto, somos conduzidos a uma importante aproximação para esse Hamiltoniano, o termo cinético \
+relacionado aos prótons pode ser desprezado, e sua posição é considerada fixa no tempo, $\sum_k \frac{\nabla'^2_{k}}{2m_n} \to 0$, restando
+
+\begin{equation}
+    \hat H = -\sum_k \frac{1}{2}\nabla^2_{k} + \frac{1}{2} \sum_{i \neq j} \frac{Z_i Z_j}{|\vec{R}_i-\vec{R}_j|} - \sum_{i,j} \frac{Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{1}{|\vec{r}_i - \vec{r}_j|}
+\end{equation}
+Além disso, o termo de interação entre núcleos pode ser subtraído da energia total do sistema, reduzindo o problema a resolver a equação de Schrödinger independente do tempo:
+\begin{equation}
+    \label{BOeq}
+    \left(-\sum_k \frac{1}{2}\nabla^2_{k} - \sum_{i,j} \frac{Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{1}{|\vec{r}_i - \vec{r}_j|} \right) \Psi(r) = E \Psi(r)
+\end{equation}
+Sempre considerando o princípio de exclusão de Pauli.
+\subsection{Limitações Teóricas e Computacionais}
+
+A equação \ref{BOeq} possui um alto grau de complexidade, e não possui uma solução analítica geral conhecida.\
+Além disso, métodos numéricos convencionais utilizados para resolução de equações diferenciais, como o método\
+das diferenças finitas, possuem complexidade computacional polinomial de ordem $3 N$ em que $N$ é o número de elétrons\
+no sistema, tornando esses cálculos impossíveis.
+
+Muitos métodos numéricos foram desenvolvidos ao longo dos anos para permitir a resolução da equação \ref{BOeq}.\
+Os métodos mais utilizados atualmente, como o método de Hartree-Fock e o DFT, tem como base a escrita da função de onda, como um produto de\
+funções relacionadas a cada elétron do sistema. Essa separação de variáveis é feita, muitas vezes, de modo a\
+reduzir o sistema a um conjunto de $N$ equações, cada uma referente a um elétron. 
+
+
+
 
 \section{A Teoria do Funcional da Densidade}
 \subsection{Primeiro Teorema}

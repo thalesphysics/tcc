@@ -18,13 +18,13 @@
 \contentsline {subsection}{\numberline {2.1.4}Quarto Postulado}{7}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}Quinto Postulado}{8}{subsection.2.1.5}%
 \contentsline {section}{\numberline {2.2}Estados Estacionários}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Partículas Idênticas}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Princípio da Exclusão de Pauli}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Sistemas Multieletrônicos}{10}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Aproximação de Born-Oppenheimer}{10}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Aproximação de Elétrons Não Interagentes}{10}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{10}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema}{10}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Segundo Teorema}{10}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}A Equação de Kohn-Sham}{10}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.4.1}Aproximação de Born-Oppenheimer}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Limitações Teóricas e Computacionais}{11}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{12}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema}{12}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Segundo Teorema}{12}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}A Equação de Kohn-Sham}{12}{subsection.2.5.3}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{11}{section*.8}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{13}{section*.8}%
