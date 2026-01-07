@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.4)  5 JAN 2026 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.4)  7 JAN 2026 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,23 +999,162 @@ l.113
 
 ] (./main.toc) (./main.lof) (./main.lot) [4
 
-]
+] [5]
 \openout2 = `capitulos/cap1_introducao.aux'.
 
 
-(./capitulos/cap1_introducao.tex) [5
+(./capitulos/cap1_introducao.tex) [6
 
 
 ]
 \openout2 = `capitulos/cap2_fundamentacao.aux'.
 
  (./capitulos/cap2_fundamentacao.tex
-[6
+[7
 
 
 
 
-] [7] [8] [9] [10]) [11] [12]
+] [8] [9] [10] [11] [12]
+Overfull \hbox (5.49274pt too wide) detected at line 236
+[][][] [] \OML/lmm/m/it/12  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12  []\OT1/lmr/
+m/n/12 ([])\OML/lmm/m/it/12 dr[] []  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12  []
+\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12 dr[]::: []  []\OT1/lmr/m/n/12 ([])[]\OML/l
+mm/m/it/12  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12 dr[]::: []  []\OT1/lmr/m/n/1
+2 ([])\OML/lmm/m/it/12  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12 dr[] \OT1/lmr/m/
+n/12 = \OML/lmm/m/it/12 E
+ []
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.274 \multirow
+               {2}{*}{Hartree--Fock}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.279 \multirow
+               {4}{*}{Perturbação (MPn)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.286 \multirow
+               {4}{*}{Configuration Interaction}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.293 \multirow
+               {5}{*}{Coupled Cluster}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.301 \multirow
+               {3}{*}{DFT (Kohn--Sham)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.307 \multirow
+               {3}{*}{DFT híbrido}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.313 \multirow
+               {4}{*}{DFT avançado}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.320 \multirow
+               {3}{*}{Métodos semiempíricos}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.326 \multirow
+               {3}{*}{Escalabilidade linear}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.332 \multirow
+               {2}{*}{Monte Carlo}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.337 \multirow
+               {3}{*}{Correlação forte}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13] [14pdfTeX warning (ext4): destination with the same identifier (name{table
+.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.360 
+      ]) [15]
 \openout2 = `capitulos/cap3_metodologia.aux'.
 
 
@@ -1028,7 +1167,7 @@ No file capitulos/cap4_resultados.tex.
 No file capitulos/cap5_conclusao.tex.
 (./main.bbl
 bibitemlist
-) [13
+) [16
 
 
 
@@ -1053,21 +1192,17 @@ bibitemlist
 
  (./main.aux (./capitulos/cap1_introducao.aux)
 (./capitulos/cap2_fundamentacao.aux) (./capitulos/cap3_metodologia.aux)
-(./capitulos/cap4_resultados.aux) (./capitulos/cap5_conclusao.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
+(./capitulos/cap4_resultados.aux) (./capitulos/cap5_conclusao.aux)) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18049 strings out of 478287
- 287312 string characters out of 5849290
- 661647 words of memory out of 5000000
- 35769 multiletter control sequences out of 15000+600000
- 528205 words of font info for 115 fonts, out of 8000000 for 9000
+ 18079 strings out of 478287
+ 287695 string characters out of 5849290
+ 664815 words of memory out of 5000000
+ 35779 multiletter control sequences out of 15000+600000
+ 528387 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,93p,1001b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texm
@@ -1087,9 +1222,9 @@ public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr
 ic/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm7.pfb>
-Output written on main.pdf (14 pages, 431575 bytes).
+Output written on main.pdf (17 pages, 452879 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 32966 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 32982 words of extra memory for PDF output out of 35830 (max. 10000000)
 

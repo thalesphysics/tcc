@@ -206,7 +206,49 @@ Além disso, o termo de interação entre núcleos pode ser subtraído da energi
     \label{BOeq}
     \left(-\sum_k \frac{1}{2}\nabla^2_{k} - \sum_{i,j} \frac{Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{1}{|\vec{r}_i - \vec{r}_j|} \right) \Psi(r) = E \Psi(r)
 \end{equation}
-Sempre considerando o princípio de exclusão de Pauli.
+
+\subsection{Aproximação de Elétrons Independentes}
+A equação \ref{BOeq} possui 3 termos, dos quais dois primeiros dependem apenas da posição de um elétron, enquanto que o ultimo, o termo de interação eletrônica, depende das coordenadas de dois elétrons distintos.\
+Se desprezarmos esse ultimo termo, é possível reescrever a equação de modo que a energia relacionada a cada elétron é evidente.\
+Retirando o termo de interação eletrônica obtemos:
+\begin{equation}
+    \left(-\sum_k \frac{1}{2}\nabla^2_{k} - \sum_{i,j} \frac{Z_i}{|\vec{R}_i-\vec{r}_j|} \right) \Psi(r) = E \Psi(r)
+\end{equation}
+
+\begin{equation}
+    \left(\sum_{i=1}^{N}\hat H_i \right)\Psi(r) = E \Psi(r)
+\end{equation}
+Dessa forma, fazendo uma separação de variáveis, 
+\begin{equation}
+    \Psi(\vec{r_1},\vec{r_2},...,\vec{r_N}) = \psi_1(\vec{r_1})\psi_2(\vec{r_2})...\psi_N(\vec{r_N})
+\end{equation}
+obtemos,
+\begin{equation}
+    \left(\sum_{i=1}^{N}\hat H_i \right)\psi_1(\vec{r_1})\psi_2(\vec{r_2})...\psi_N(\vec{r_N}) = E \psi_1(\vec{r_1})\psi_2(\vec{r_2})...\psi_N(\vec{r_N})
+\end{equation}
+Multiplicando por $\Psi^*$ e integrando dos dois lados,
+\begin{align}
+    &\int\int...\int \psi^*_1(\vec{r_1})\psi^*_2(\vec{r_2})...\psi^*_N(\vec{r_N})\left(\sum_{i=1}^{N}\hat H_i \right)\psi_1(\vec{r_1})\psi_2(\vec{r_2})...\psi_N(\vec{r_N})~dr^3_1dr^3_2...dr^3_N \nonumber \\
+    &= \int\int...\int \psi^*_1(\vec{r_1})\psi^*_2(\vec{r_2})...\psi^*_N(\vec{r_N}) E \psi_1(\vec{r_1})\psi_2(\vec{r_2})...\psi_N(\vec{r_N})~dr^3_1dr^3_2...dr^3_N
+\end{align}
+\begin{equation}
+    \sum_{i=1}^{N}\int \psi^*_1(\vec{r_1})\psi_1(\vec{r_1})dr^3_1 \int \psi^*_2(\vec{r_2})\psi_2(\vec{r_2})dr^3_2...\int \psi^*_i(\vec{r_i}) \hat H_i \psi_i(\vec{r_i}) dr^3_i ... \int \psi^*_N(\vec{r_N})\psi_N(\vec{r_N})dr^3_N = E
+\end{equation}
+Assim, assumindo que as funções de onda de cada elétron, $\psi_i(\vec{r_i})$, são ortonormais entre sí,
+\begin{equation}
+    \sum_{i=1}^{N} \int \psi_i^* \hat H_i\psi_i~dr_i^3 = \sum_{i=1}^{N} \epsilon_i = E
+\end{equation}
+
+\subsection{Apoximação de Potêncial Médio}
+
+De maneira geral, o termo de interação eletrônica dificulta a resoluçao da equação \ref{BOeq}. Contudo, ao\
+desprezarmos esse termo, perdemos uma parte importante da descrição do sistema. Assim, como uma maneira de\
+recuperar ao menos a energia relacionada a repulsão eletrostática, podemos adicionar ao hamiltoniano de um único\
+elétron o potencial de Hartree. Esse potêncial está diretamente ligado a descrição do potêncial elétrico do sistema\
+não como um conjunto de cargas pontuais, mas como uma distribuição de densidade elétrica, condizente com o eletromagnetismo clássico.
+
+
+
 \subsection{Limitações Teóricas e Computacionais}
 
 A equação \ref{BOeq} possui um alto grau de complexidade, e não possui uma solução analítica geral conhecida.\
@@ -215,14 +257,125 @@ das diferenças finitas, possuem complexidade computacional polinomial de ordem 
 no sistema, tornando esses cálculos impossíveis.
 
 Muitos métodos numéricos foram desenvolvidos ao longo dos anos para permitir a resolução da equação \ref{BOeq}.\
-Os métodos mais utilizados atualmente, como o método de Hartree-Fock e o DFT, tem como base a escrita da função de onda, como um produto de\
-funções relacionadas a cada elétron do sistema. Essa separação de variáveis é feita, muitas vezes, de modo a\
-reduzir o sistema a um conjunto de $N$ equações, cada uma referente a um elétron. 
+Os métodos mais utilizados atualmente, como o método de Hartree-Fock e o DFT, tem como base o cálculo variacional \
+para achar a estrutura eletrônica do estado fundamental.
 
+\begin{table}[h!]
+\centering
+\caption{Métodos quanticos computacionais e suas complexidades computacionais.}
+\label{tab:complexidade_metodos_quanticos}
+\begin{tabular}{l l c}
+\hline
+\textbf{Categoria} & \textbf{Método} & \textbf{Complexidade} \\
+\hline
+Hartree & Hartree & $\mathcal{O}(N^3)$ \\
+
+\hline
+\multirow{2}{*}{Hartree--Fock} 
+& HF canônico & $\mathcal{O}(N^4)$ \\
+& HF com técnicas rápidas & $\mathcal{O}(N^3)$ \\
+
+\hline
+\multirow{4}{*}{Perturbação (MPn)}
+& MP2 & $\mathcal{O}(N^5)$ \\
+& MP3 & $\mathcal{O}(N^6)$ \\
+& MP4 & $\mathcal{O}(N^7)$ \\
+& MP$n$ & $\mathcal{O}(N^{n+3})$ \\
+
+\hline
+\multirow{4}{*}{Configuration Interaction}
+& CIS & $\mathcal{O}(N^4)$ \\
+& CISD & $\mathcal{O}(N^6)$ \\
+& CI truncado & Polinomial \\
+& FCI & Exponencial \\
+
+\hline
+\multirow{5}{*}{Coupled Cluster}
+& CCSD & $\mathcal{O}(N^6)$ \\
+& CCSD(T) & $\mathcal{O}(N^7)$ \\
+& CCSDT & $\mathcal{O}(N^8)$ \\
+& CCSDTQ & $\mathcal{O}(N^{10})$ \\
+& CC completo & Exponencial \\
+
+\hline
+\multirow{3}{*}{DFT (Kohn--Sham)}
+& LDA & $\mathcal{O}(N^3)$ \\
+& GGA (PBE) & $\mathcal{O}(N^3)$ \\
+& meta-GGA & $\mathcal{O}(N^3)$ \\
+
+\hline
+\multirow{3}{*}{DFT híbrido}
+& B3LYP & $\mathcal{O}(N^4)$ \\
+& PBE0 & $\mathcal{O}(N^4)$ \\
+& HSE & $\mathcal{O}(N^4)$ \\
+
+\hline
+\multirow{4}{*}{DFT avançado}
+& DFT+U & $\mathcal{O}(N^3)$ \\
+& EXX / OEP & $\mathcal{O}(N^{4{-}5})$ \\
+& GW & $\mathcal{O}(N^{4{-}5})$ \\
+& RPA@DFT & $\mathcal{O}(N^{4{-}5})$ \\
+
+\hline
+\multirow{3}{*}{Métodos semiempíricos}
+& Tight-binding & $\mathcal{O}(N)$ \\
+& DFTB & $\mathcal{O}(N^{2{-}3})$ \\
+& xTB & $\mathcal{O}(N^2)$ \\
+
+\hline
+\multirow{3}{*}{Escalabilidade linear}
+& DFT $\mathcal{O}(N)$ & $\mathcal{O}(N)$ \\
+& FOE & $\mathcal{O}(N)$ \\
+& PEXSI & $\mathcal{O}(N^{1.5{-}2})$ \\
+
+\hline
+\multirow{2}{*}{Monte Carlo}
+& VMC & $\mathcal{O}(N^3)$ \\
+& DMC & $\mathcal{O}(N^{3{-}4})$ \\
+
+\hline
+\multirow{3}{*}{Correlação forte}
+& Hubbard exato & Exponencial \\
+& DMFT & $\mathcal{O}(N^3)$ + solver \\
+& DMRG (1D) & Polinomial \\
+
+\hline
+\end{tabular}
+\end{table}
 
 
 
 \section{A Teoria do Funcional da Densidade}
-\subsection{Primeiro Teorema}
-\subsection{Segundo Teorema}
+
+Métodos computacionais baseados na teoria do funciona da densidade (DFT), tem sido amplamente utilizados\
+em pesquisas na área de materiais pois oferece resultados altamente condizentes com dados experimentais.\
+A teoria é simples, e se apoia em dois teoremas principais, que relacionam a densidade de probabilidade do estado fundamental,\
+o potencial elétrico, e a energia, de modo que o sistema é resumido a um problema de autovalores e autovetoes.
+
+\subsection{Primeiro Teorema de Hohenberg-Kohn}
+
+O primeiro teorema afirma que a densidade eletrétrica do estado fundamental determina unicamente o potêncial externo do sistema,\
+a menos de uma constante aditiva. Além disso, sabendo o potêncial externo do sistema, podemos determinar o estado fundamental resolvendo a equação. \
+Isso indica que há um mapeamento um a um da densidade elétrica no estado fundamental para todas as outras propriedades do sistema.
+
+\begin{equation}
+    \rho \to V_{ext} \to \hat H \to |\psi\rangle \to \rho
+\end{equation}
+
+\subsection{Segundo Teorema de Hohenberg-Kohn}
+
+O segundo teorema afirma que a energia total do sistema é um funcional único da densidade eletrônica, tal que\
+a densidade eletrônica que minimiza a energia é a densidade do estado fundamental do sistema.
+
+\begin{equation}
+    E = E[\rho]
+\end{equation}
+\begin{equation}
+    E[\rho] > E[\rho_o]
+\end{equation}
+
+Esse resultado é de grande importância, pois trás consigo um caminho para o cálculo da estrutura eletrônica e energia do sistema:\
+Encontrar a densidade eletrônica que minimiza a energia.
+
 \subsection{A Equação de Kohn-Sham}
+
