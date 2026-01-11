@@ -954,6 +954,8 @@ INPUT capitulos/cap2_fundamentacao.tex
 INPUT ./capitulos/cap2_fundamentacao.tex
 INPUT capitulos/cap2_fundamentacao.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 OUTPUT capitulos/cap3_metodologia.aux
 OUTPUT capitulos/cap4_resultados.aux
 OUTPUT capitulos/cap5_conclusao.aux

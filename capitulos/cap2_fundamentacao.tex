@@ -238,6 +238,10 @@ Assim, assumindo que as funções de onda de cada elétron, $\psi_i(\vec{r_i})$,
 \begin{equation}
     \sum_{i=1}^{N} \int \psi_i^* \hat H_i\psi_i~dr_i^3 = \sum_{i=1}^{N} \epsilon_i = E
 \end{equation}
+Além disso, a densidade elétronica pode ser obtida simplesmente pela soma da densidade individual de cada elétron do sistema:
+\begin{equation}
+    \rho(\vec{r}) = \sum_{i=1}^N |\psi(\vec{r})|^2
+\end{equation}
 
 \subsection{Apoximação de Potêncial Médio}
 
@@ -245,9 +249,25 @@ De maneira geral, o termo de interação eletrônica dificulta a resoluçao da e
 desprezarmos esse termo, perdemos uma parte importante da descrição do sistema. Assim, como uma maneira de\
 recuperar ao menos a energia relacionada a repulsão eletrostática, podemos adicionar ao hamiltoniano de um único\
 elétron o potencial de Hartree. Esse potêncial está diretamente ligado a descrição do potêncial elétrico do sistema\
-não como um conjunto de cargas pontuais, mas como uma distribuição de densidade elétrica, condizente com o eletromagnetismo clássico.
+não como um conjunto de cargas pontuais, mas como uma distribuição de densidade elétrica, condizente com o eletromagnetismo clássico.\
+Dessa forma, pela lei de Gauss, temos que
+\begin{equation}
+    \nabla^2 V_H(\vec{r}) = - 4 \pi \rho(\vec{r})
+\end{equation}
+Essa equação diferencial possui solução conhecida para o potêncial $V_H(\vec{r})$,
+\begin{equation}
+    V_H(\vec{r})=\int \frac{\rho(\vec{r'})}{|\vec{r}-\vec{r'}|}~{dr'}^3
+\end{equation}
 
-
+O potêncial de Hartree é uma função dependente da posição, mas ele não faz realmente menção a posição individual dos elétrons. Esse potêncial\
+está relacionado a energia de uma carga imersa no campo elétrico gerado pela nuvem eletrônica. Dessa forma, o Hamiltoniano total do sistema pode\
+ser melhor aproximado como:
+\begin{equation}
+    \label{Hlivre}
+    \hat H = \underbrace{-\sum_i\frac{1}{2}\nabla^2_i}_{\text{Energia Cinética}} 
+    - \underbrace{\sum_{i}\frac{Z_i}{|\vec{R_i}-\vec{r_i}|}}_{\text{Potencial Externo}} 
+    + \underbrace{\int \frac{\rho(\vec{r'})}{|\vec{r}-\vec{r'}|} ~ d^3r'}_{\text{Potencial de Hartree}}
+\end{equation}
 
 \subsection{Limitações Teóricas e Computacionais}
 
@@ -379,3 +399,22 @@ Encontrar a densidade eletrônica que minimiza a energia.
 
 \subsection{A Equação de Kohn-Sham}
 
+O funcional de energia sugerido pela teoria do DFT é a energia relacionada ao Hamiltoniano de elétrons independentes \ref{Hlivre}:
+\begin{gather}
+    E[\rho] = \langle\Psi[\rho]| \hat H | \Psi[\rho] \rangle = \nonumber \\
+    -\frac{1}{2}\sum_i \int \psi_i^*[\rho] \nabla^2_i \psi_i[\rho] \, d^3r - \sum_{i,j} Z_j\int \frac{\rho(\vec{r})}{|\vec{R}_i - \vec{r}|} \, d^3r + \int \int \frac{\rho(\vec{r})\rho(\vec{r}')}{|\vec{r}-\vec{r}'|} \, d^3r' \, d^3r + E_{xc}[\rho]
+\end{gather}
+Em que $E_{xc}[\rho]$ é o termo de energia relacionado aos efeitos quânticos de troca e correlação. Pelo segundo teorema de Hohenberg-Kohn,\
+o estado fundamental é tal que minimiza o funcional de energia. Dessa forma, a equação de Kohn-Sham é obtida pela minimização do funcional de energia em relação a densidade eletrônica. Isso é feito\
+por meio do cálculo variacional assumindo o vinculo de que as funções de onda individuais dos elétrons são ortonormais
+\begin{equation}
+    \langle \psi_i| \psi_j \rangle = \delta_{i}^j
+\end{equation}
+Isso é feito resolvendo:
+\begin{equation}
+    \frac{\delta}{\delta \rho}\left( E[\rho] - \epsilon_{ij} \left(\langle \psi_i| \psi_j \rangle - \delta_{i}^j \right)\right) = 0
+\end{equation}
+O cálculo dessas variações podem ser feitos analíticamente sem maiores dificuldades com exceção do termo $E_{xc}[\rho]$, levando a
+\begin{equation}
+   \sum_i \int\left( -\frac{1}{2} \nabla_i \psi_i - \sum_j\frac{Z_j}{|\vec{R_j}-\vec{r}|}\psi_i + \int \frac{\rho(\vec{r})}{|\vec{r} - \vec{r'}|} ~d^3r' \psi_i - \epsilon_{ii}\psi_i\right)\delta \psi_i^* = 0
+\end{equation}

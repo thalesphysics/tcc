@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.4)  7 JAN 2026 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.4)  11 JAN 2026 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1025,10 +1025,11 @@ mm/m/it/12  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12 dr[]::: []  []\OT1/lmr/m/n/1
 n/12 = \OML/lmm/m/it/12 E
  []
 
+[13]
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.274 \multirow
+l.294 \multirow
                {2}{*}{Hartree--Fock}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1039,7 +1040,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.279 \multirow
+l.299 \multirow
                {4}{*}{Perturbação (MPn)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1050,7 +1051,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.286 \multirow
+l.306 \multirow
                {4}{*}{Configuration Interaction}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1061,7 +1062,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.293 \multirow
+l.313 \multirow
                {5}{*}{Coupled Cluster}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1072,7 +1073,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.301 \multirow
+l.321 \multirow
                {3}{*}{DFT (Kohn--Sham)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1083,7 +1084,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.307 \multirow
+l.327 \multirow
                {3}{*}{DFT híbrido}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1094,7 +1095,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.313 \multirow
+l.333 \multirow
                {4}{*}{DFT avançado}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1105,7 +1106,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.320 \multirow
+l.340 \multirow
                {3}{*}{Métodos semiempíricos}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1116,7 +1117,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.326 \multirow
+l.346 \multirow
                {3}{*}{Escalabilidade linear}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1127,7 +1128,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.332 \multirow
+l.352 \multirow
                {2}{*}{Monte Carlo}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1138,7 +1139,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.337 \multirow
+l.357 \multirow
                {3}{*}{Correlação forte}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1149,12 +1150,12 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14pdfTeX warning (ext4): destination with the same identifier (name{table
+[14] [15pdfTeX warning (ext4): destination with the same identifier (name{table
 .2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.360 
-      ]) [15]
+l.406 \end{gather}
+                  ]) [16]
 \openout2 = `capitulos/cap3_metodologia.aux'.
 
 
@@ -1167,7 +1168,7 @@ No file capitulos/cap4_resultados.tex.
 No file capitulos/cap5_conclusao.tex.
 (./main.bbl
 bibitemlist
-) [16
+) [17
 
 
 
@@ -1198,11 +1199,11 @@ bibitemlist
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18079 strings out of 478287
- 287695 string characters out of 5849290
- 664815 words of memory out of 5000000
- 35779 multiletter control sequences out of 15000+600000
- 528387 words of font info for 117 fonts, out of 8000000 for 9000
+ 18103 strings out of 478287
+ 287990 string characters out of 5849290
+ 664881 words of memory out of 5000000
+ 35784 multiletter control sequences out of 15000+600000
+ 534693 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,93p,1001b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texm
@@ -1222,9 +1223,9 @@ public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr
 ic/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm7.pfb>
-Output written on main.pdf (17 pages, 452879 bytes).
+Output written on main.pdf (18 pages, 466028 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 32982 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 37078 words of extra memory for PDF output out of 42996 (max. 10000000)
 
