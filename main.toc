@@ -24,9 +24,11 @@
 \contentsline {subsection}{\numberline {2.4.2}Aproximação de Elétrons Independentes}{12}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Apoximação de Potêncial Médio}{13}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Limitações Teóricas e Computacionais}{14}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{14}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema de Hohenberg-Kohn}{14}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Segundo Teorema de Hohenberg-Kohn}{14}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{15}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema de Hohenberg-Kohn}{16}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Segundo Teorema de Hohenberg-Kohn}{16}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}A Equação de Kohn-Sham}{16}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Funcional da Densidade com Ligações Fortes}{17}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Aproximação do termo repulsivo}{19}{subsection.2.6.1}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{17}{section*.8}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{20}{section*.8}%

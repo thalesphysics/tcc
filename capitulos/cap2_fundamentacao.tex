@@ -280,7 +280,7 @@ Muitos métodos numéricos foram desenvolvidos ao longo dos anos para permitir a
 Os métodos mais utilizados atualmente, como o método de Hartree-Fock e o DFT, tem como base o cálculo variacional \
 para achar a estrutura eletrônica do estado fundamental.
 
-\begin{table}[h!]
+\begin{table}[H]
 \centering
 \caption{Métodos quanticos computacionais e suas complexidades computacionais.}
 \label{tab:complexidade_metodos_quanticos}
@@ -401,10 +401,11 @@ Encontrar a densidade eletrônica que minimiza a energia.
 
 O funcional de energia sugerido pela teoria do DFT é a energia relacionada ao Hamiltoniano de elétrons independentes \ref{Hlivre}:
 \begin{gather}
+    \label{funcdft}
     E[\rho] = \langle\Psi[\rho]| \hat H | \Psi[\rho] \rangle = \nonumber \\
-    -\frac{1}{2}\sum_i \int \psi_i^*[\rho] \nabla^2_i \psi_i[\rho] \, d^3r - \sum_{i,j} Z_j\int \frac{\rho(\vec{r})}{|\vec{R}_i - \vec{r}|} \, d^3r + \int \int \frac{\rho(\vec{r})\rho(\vec{r}')}{|\vec{r}-\vec{r}'|} \, d^3r' \, d^3r + E_{xc}[\rho]
+    -\frac{1}{2}\sum_i \int \psi_i^*[\rho] \nabla^2_i \psi_i[\rho] \, d^3r - \sum_{I} Z_I\int \frac{\rho(\vec{r})}{|\vec{R}_I - \vec{r}|} \, d^3r + \frac{1}{2}\iint \frac{\rho(\vec{r})\rho(\vec{r'})}{|\vec{r}-\vec{r'}|} \, d^3r' \, d^3r + E_{xc}[\rho]
 \end{gather}
-Em que $E_{xc}[\rho]$ é o termo de energia relacionado aos efeitos quânticos de troca e correlação. Pelo segundo teorema de Hohenberg-Kohn,\
+Em que a soma $\sum_i$ recai sobre todos os estados ocupados, e $E_{xc}[\rho]$ é o termo de energia relacionado aos efeitos quânticos de troca e correlação. Pelo segundo teorema de Hohenberg-Kohn,\
 o estado fundamental é tal que minimiza o funcional de energia. Dessa forma, a equação de Kohn-Sham é obtida pela minimização do funcional de energia em relação a densidade eletrônica. Isso é feito\
 por meio do cálculo variacional assumindo o vinculo de que as funções de onda individuais dos elétrons são ortonormais
 \begin{equation}
@@ -412,9 +413,155 @@ por meio do cálculo variacional assumindo o vinculo de que as funções de onda
 \end{equation}
 Isso é feito resolvendo:
 \begin{equation}
-    \frac{\delta}{\delta \rho}\left( E[\rho] - \epsilon_{ij} \left(\langle \psi_i| \psi_j \rangle - \delta_{i}^j \right)\right) = 0
+    \frac{\delta}{\delta \rho}\left( E[\rho] - \lambda_{ij} \left(\langle \psi_i| \psi_j \rangle - \delta_{i}^j \right)\right) = 0
 \end{equation}
 O cálculo dessas variações podem ser feitos analíticamente sem maiores dificuldades com exceção do termo $E_{xc}[\rho]$, levando a
 \begin{equation}
-   \sum_i \int\left( -\frac{1}{2} \nabla_i \psi_i - \sum_j\frac{Z_j}{|\vec{R_j}-\vec{r}|}\psi_i + \int \frac{\rho(\vec{r})}{|\vec{r} - \vec{r'}|} ~d^3r' \psi_i - \epsilon_{ii}\psi_i\right)\delta \psi_i^* = 0
+    \label{eqvariacional}
+   \sum_i \int \left( 
+   \underbrace{-\frac{1}{2} \nabla^2}_{\hat{T}} \psi_i
+   - \underbrace{\sum_I\frac{Z_I}{|\vec{R}_I-\vec{r}|}}_{\hat{V}_{ext}} \psi_i
+   + \underbrace{\left[ \int \frac{\rho(\vec{r'})}{|\vec{r} - \vec{r'}|} \, d^3r' \right]}_{\hat{V}_H} \psi_i
+   + \underbrace{\frac{\delta E_{xc}[\rho]}{\delta \rho}}_{\hat{V}_{xc}} \psi_i
+   - \underbrace{\epsilon_{i}}_{\lambda_{ii}} \psi_i
+   \right) \delta \psi_i^* \, d^3r = 0
 \end{equation}
+Pelo teorema fundamental do cálculo variácional, a equação \ref{eqvariacional} é reduzida a uma coleção de N equações que apenas dependem do orbital de um elétron, e caracterizam um novo problema de autovalor e autovetor.
+\begin{equation}
+    \left( \hat{T} + \hat V_{ext} + \hat V_{H} + \hat V_{xc} \right) \psi_i = \epsilon_i \psi_i
+\end{equation}
+
+\section{Funcional da Densidade com Ligações Fortes}
+
+O DFT é um método poderoso para cálculos de muitas propriedades de materiais. Entretanto, esse método exige grande poder computacional.\
+Sistemas com mais de 100 átomos podem levar de horas a semanas, dependendo de qual propriedade se deseja obter. O custo computacional pode\
+muitas vezes, inviabilizar a analise de sistemas muito grandes, ou que exigem problemas que exigem muitas simulações.
+
+A teoria do funcional da densidade com ligações fortes, ou density-functional tight-binding (DFTB), é um método derivado do DFT, que\
+visa simplificar as equações utilizando parâmetros obtidos por ajustes em teorias mais sofisticadas como o DFT.
+
+O cerne da teoria do DFTB é escrever o funcional de energia do DFT \ref{funcdft}:
+\begin{equation}
+    E[\rho] = \sum_i \langle\psi_i| \left( -\frac{1}{2} \nabla_i^2 + \sum_I\frac{Z_I}{|\vec{R}_I-\vec{r}|} \right) |\psi_i\rangle + \frac{1}{2}\iint \frac{\rho(\vec{r})\rho(\vec{r'})}{|\vec{r}-\vec{r'}|} ~d^3rd^3r'+E_{xc}
+\end{equation}
+Então assumir que os orbitais eletrônicos estão distribuidos de uma maneira que se assemelha aos orbitais atômicos.\
+Isso permite escrever a densidade eletrônica $\rho$ como a densiade referente a orbitais atômicos não interagentes $\rho_o$ e uma pequena perturbaçao $\delta\rho$. De modo que,
+
+\begin{equation}
+    \rho = \rho_o + \delta\rho
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+E[\rho_o + \delta\rho]
+&=
+\sum_i \langle\psi_i|
+\left(
+-\frac{1}{2} \nabla_i^2
++ \sum_I\frac{Z_I}{|\vec{R}_I-\vec{r}|}
+\right)
+|\psi_i\rangle
+\\
+&\quad
++ \frac{1}{2}\iint
+\frac{\rho_o(\vec{r})\rho_o(\vec{r'})}
+{|\vec{r}-\vec{r'}|}
+\,d^3r\,d^3r'
+\\
+&\quad
++ \iint
+\frac{\rho_o(\vec{r})}
+{|\vec{r}-\vec{r'}|}
+\delta\rho(\vec{r'})
+\,d^3r\,d^3r'
++ \frac{1}{2}\iint
+\frac{\delta\rho(\vec{r})\delta\rho(\vec{r'})}
+{|\vec{r}-\vec{r'}|}
+\,d^3r\,d^3r'
+\\
+&\quad
++ E_{xc}[\rho_o]
++ \int
+\frac{\delta E_{xc}[\rho_o]}{\delta \rho}\delta\rho(\vec{r})
+\,d^3r
++ \frac{1}{2} \iint
+\frac{\delta^2 E_{xc}[\rho_o]}
+{\delta\rho(\vec{r})\delta\rho(\vec{r'})}\delta\rho(\vec{r})\delta\rho(\vec{r'})
+\,d^3r\,d^3r'
+\end{aligned}
+\end{equation}
+Organizando os termos temos,
+\begin{equation}
+\begin{aligned}
+E[\rho_o + \delta\rho]
+&=
+\sum_i \langle\psi_i|
+\left(
+\hat T + \hat V_{ext} + \hat V_H + \hat V_{xc}
+\right)
+|\psi_i\rangle
+\\
+&\quad
+- \frac{1}{2}\int
+\rho_o(\vec{r})V_{H}[\rho_o] \,d^3r + E_{xc}[\rho_o] - \int V_{xc}[\rho_o] \rho_o(\vec{r}) ~d^3 r 
+\\
+&\quad
++ \int \left(
+V_H[\rho_o] + V_{xc}[\rho_o] \right)\delta\rho(\vec{r})
+\,d^3r
+\\
+&\quad
++ \frac{1}{2}\iint \left(
+\frac{1}{|\vec{r}-\vec{r'}|} + \frac{\delta^2 E_{xc}[\rho_o]}{\delta\rho(\vec{r})\delta\rho(\vec{r'})}
+\right) \delta\rho(\vec{r})\delta\rho(\vec{r'})
+\,d^3r\,d^3r'
+\end{aligned}
+\end{equation}
+Como assumimos que a energia referente a $\rho_o$ é próxima da energia mínima, podemos exigir que o funcional de energia seja aproximadamente estacionário, isto é,
+\begin{equation}
+    \frac{\delta E[\rho_o]}{\delta \rho} = 0
+\end{equation}
+Isso implica que os termos de primeira ordem em $\delta\rho$ devem se anular, sobrando
+\begin{equation}
+\begin{aligned}
+E[\rho_o + \delta\rho]
+&=
+\sum_i \langle\psi_i|
+\left(
+\hat T + \hat V_{ext} + \hat V_H + \hat V_{xc}
+\right)
+|\psi_i\rangle
+\\
+&\quad
+- \frac{1}{2}\int
+\rho_o(\vec{r})V_{H}[\rho_o] \,d^3r + E_{xc}[\rho_o] - \int V_{xc}[\rho_o] \rho_o(\vec{r}) ~d^3 r 
+\\
+&\quad
++ \frac{1}{2}\iint \left(
+\frac{1}{|\vec{r}-\vec{r'}|} + \frac{\delta^2 E_{xc}[\rho_o]}{\delta\rho(\vec{r})\delta\rho(\vec{r'})}
+\right) \delta\rho(\vec{r})\delta\rho(\vec{r'})
+\,d^3r\,d^3r'
+\end{aligned}
+\end{equation}
+A primeira linha é chamada de energia de estrutura de bandas,
+\begin{equation}
+    E_{BS}=\sum_i \langle\psi_i|\left(\hat T + \hat V_{ext} + \hat V_H + \hat V_{xc}\right)|\psi_i\rangle = \sum_i \langle\psi_i|H_o|\psi_i\rangle
+\end{equation}
+e não contém informação referente a transferencia de cargas.\
+A segunda linha é chamada de energia de coulomb,
+\begin{equation}
+    E_{coul} = - \frac{1}{2}\int\rho_o(\vec{r})V_{H}[\rho_o] \,d^3r + E_{xc}[\rho_o] - \int V_{xc}[\rho_o] \rho_o(\vec{r}) ~d^3 r 
+\end{equation}
+e relaciona as interações eletrônicas com a mudança de carga.
+A terceira linha é a energia de repulsão,
+\begin{equation}
+    E_{rep} = + \frac{1}{2}\iint \left(\frac{1}{|\vec{r}-\vec{r'}|} + \frac{\delta^2 E_{xc}[\rho_o]}{\delta\rho(\vec{r})\delta\rho(\vec{r'})}\right) \delta\rho(\vec{r})\delta\rho(\vec{r'})\,d^3r\,d^3r' 
+\end{equation}
+que descreve as repulsoes entre as nuvens eletrônicas nucleares.
+A energia total pode ser escrita como:
+\begin{equation}
+    E = E_{BS} + E_{coul} + E_{rep}
+\end{equation}
+
+\subsection{Aproximação do termo repulsivo}
+
