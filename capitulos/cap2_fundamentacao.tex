@@ -563,5 +563,30 @@ A energia total pode ser escrita como:
     E = E_{BS} + E_{coul} + E_{rep}
 \end{equation}
 
-\subsection{Aproximação do termo repulsivo}
+\subsection{Aproximação do Termo Repulsivo}
 
+Uma observação importante que pode ser feita sob o termo repulsivo, $E_{rep}$, é que ele depende apenas da densidade dos átomos isolados, $\rho_o$.\
+Essa densidade eletrônica pode ser descrita por uma soma sob cada átomos do sistema,
+\begin{equation}
+    \rho_o(\vec{r}) = \sum_a \rho_a(\vec{r}),
+\end{equation}
+em que $\rho_a$ é a densidade eletônica do átomo $a$. Dessa forma, é evidente que a energia de Hartree\
+possui dependência da densidade eletrônica dos átomos isolados, e de pares de átomos,
+\begin{equation}
+    E_H = \iint \frac{\left(\sum_a \rho_a(\vec{r})\right)\left(\sum_a \rho_a(\vec{r'})\right)}{|\vec{r}-\vec{r'}|} ~d^3rd^3r' = \iint \frac{\left(\sum_{a} \rho_a(\vec{r})\rho_a(\vec{r'})+\sum_{a\neq b} \rho_a(\vec{r})\rho_b(\vec{r'})\right)}{|\vec{r}-\vec{r'}|} ~d^3rd^3r'
+\end{equation}
+Isso leva a uma drástica aproximação, o termo repulsivo é reescrito como uma soma de funções, $V^{ab}_{rep}$, referente a dupla do átomo $a$ e o átomo $b$, que apenas dependem do elemento e da distância entre os átomos, $R_{ab}$:
+\begin{equation}
+    E_{rep} = \sum_{a > b} V^{ab}_{rep}(R_{ab})
+\end{equation}
+As funções $V^{ab}_{rep}$ de fato não possuem uma forma analítica, e nem reproduzem toda a informação do sistema, já que não consideram interações entre mais de dois átomos. Contudo,\
+podem ser obtidas apartir de ajustes utilizando de teorias mais sofisticadas como o próprio DFT, evitando o cálculo de integrais computacionalmente custosas.
+
+\subsection{Aproximação do Termo de Coulomb}
+
+Além do termo de repulsão, o termo de Coulomb também pode ser simplificado. A argumentação que leva a essa conclusão é demasiada longa,\
+mas se baseia na ideia de que a energia de Coulomb está ligada a como os átomos ganham o perdem carga conforme interagem com seus vizinhos. Assim, levando a uma aproximação do tipo:
+\begin{equation}
+    E_{coul} = \frac{1}{2}\sum_{a,b}\gamma_{ab}(R_{ab})\Delta q_a \Delta q_b
+\end{equation}
+em que $\Delta q_a$ é a variação da população eletrônica do átomo $a$.

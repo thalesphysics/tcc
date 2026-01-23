@@ -29,6 +29,7 @@
 \contentsline {subsection}{\numberline {2.5.2}Segundo Teorema de Hohenberg-Kohn}{16}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}A Equação de Kohn-Sham}{16}{subsection.2.5.3}%
 \contentsline {section}{\numberline {2.6}Funcional da Densidade com Ligações Fortes}{17}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Aproximação do termo repulsivo}{19}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.1}Aproximação do Termo Repulsivo}{19}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Aproximação do Termo de Coulomb}{19}{subsection.2.6.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{20}{section*.8}%
