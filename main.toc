@@ -8,9 +8,9 @@
 \contentsline {chapter}{Lista de tabelas}{4}{section*.6}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{6}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{6}{chapter.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentação Teórica}}{7}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Postulados da Mecânica Quântica}{7}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Primeiro Postulado}{7}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Segundo Postulado}{8}{subsection.2.1.2}%
@@ -33,4 +33,4 @@
 \contentsline {subsection}{\numberline {2.6.2}Aproximação do Termo de Coulomb}{19}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}Equação de Autovalores e Autovetores do DFTB}{20}{subsection.2.6.3}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{21}{section*.8}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{22}{section*.8}%

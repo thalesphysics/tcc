@@ -595,12 +595,48 @@ em que $\Delta q_a$ é a variação da população eletrônica do átomo $a$.
 
 No DFT, as equações de Kohn-Sham são obtidas pela minimização do funcional de energia em relação a densidade eletrônica.\
 Já no DFTB, equações equivalentes e ainda mais simples podem ser obtidas considerando que os orbitais estão distribuidos muito próximos aos átomos.
-Cada função de onda eletrônica pode ser reescrita como combinação linear em uma base de funções usualmente localizadas em cada átomos
+Cada função de onda eletrônica pode ser reescrita como combinação linear em uma base de funções usualmente localizadas em cada átomos,
 \begin{equation}
-    \psi(\vec{r})_a = \sum_\mu c_\mu^a \phi_\mu(\vec{r})
+    \psi_a(\vec{r}) = \sum_\mu c_\mu^a \phi_\mu(\vec{r})
 \end{equation}
 Isso permite que o termo de energia da estrutura de bandas possa ser reescrito como:
 \begin{equation}
-    E_{BS} = \sum_a\sum_\mu\sum_\nu c_\mu^{a*}c_\nu^a \langle \psi_\mu | \hat H^o |\psi_\nu \rangle = \sum_a\sum_\mu\sum_\nu c_\mu^{a*}c_\nu^a H^o__{\mu \nu}
+    E_{BS} = \sum_a\sum_\mu\sum_\nu c_\mu^{a*}c_\nu^a \langle \psi_\mu | \hat H^o |\psi_\nu \rangle \equiv \sum_a\sum_\mu\sum_\nu c_\mu^{a*}c_\nu^a H^o_{\mu \nu}
 \end{equation}
+Dessa forma, o que resta para o cálculo da energia total é determinar a população eletrônica $\Delta q_a$ do átomo $a$. Para isso, se torna interessante dividir o espaço em regiões\
+relacionadas a cada átomo. Isso pode ser feito de muitas maneira diferentes, mas o importante é que sejam satisfeitas as relações:
+\begin{equation}
+\begin{aligned}
+&\mathcal{V} = \bigcup_{a} \mathcal{V}_a \\
+&\mathcal{V}_a \subseteq \mathbb{R}^3
+\end{aligned}
+\end{equation}
+\begin{equation}
+    \int_\mathcal{V} ~d^3r = \sum_a \int_{\mathcal{V}_a} ~d^3r
+\end{equation}
+Em que $\mathcal{V}$ é o volume total, e $\mathcal{V}_a$ é o volume relacionado ao átomo $a$.\
+Utilizando essa ideia, a carga de um átomo pode ser definida como:
+\begin{equation}
+    q_a = \int_{\mathcal{V}_a} \rho(\vec{r}) ~d^3 r = \sum_b \sum_\mu\sum_\nu c_\mu^{b*}c_\nu^b \int_{\mathcal{V}_a} \phi_\mu^{*}(\vec{r}) \phi_\nu^{*}(\vec{r}) ~d^3 r
+\end{equation}
+É importante notar que se ambos orbitais estão localizados, $\mu$ e $\nu$ não estão localizados no átomo $a$, então a integral tende a zero. Enquanto que, se ambos pertencem ao mesmo átomo,\
+e a base utilizada é ortonormal, então a integral se torna $\delta_\mu^\nu$. Caso um orbital pertença ao átomo $a$, e o outro a um átomo diferente, então\
+a integral pode ser aproximada para:
+\begin{equation}
+    \int_{\mathcal{V}_a} \phi_\mu^{*}(\vec{r}) \phi_\nu^{*}(\vec{r}) ~d^3 r = \frac{1}{2}\int_{\mathcal{V}} \phi_\mu^{*}(\vec{r}) \phi_\nu^{*}(\vec{r}) ~d^3 r \equiv \frac{1}{2} S_{\mu \nu}
+\end{equation}
+Assim, a população eletrônica pode ser obtida subtraindo o número de valência $q^o_a$, da carga $q_a$,
+\begin{equation}
+    \Delta q_a = q_a - q^o_a
+\end{equation}
+Finalmente, minimizando a energia total em relação aos coeficientes da base, e impondo a ortonormalidade dos orbitais, obtemos uma equação análoga as esquações de kohn-Sham do DFT padrão,
+\begin{equation}
+    \sum_\nu c_\nu^a (H_{\mu \nu} - \epsilon_a S_{\mu \nu}) = 0
+\end{equation}
+com
+\begin{equation}
+    H_{\mu \nu} \equiv H_{\mu \nu}^o + \frac{1}{2} \sum_a (\gamma_{\mu a} + \gamma_{\nu a}) \Delta q_a 
+\end{equation}
+
+Como a densidade eletrônica é obtida resolvendo a equação de autovalores e autovetoes, que depende da população, e a população eletrônica, por sua vez, depende da densidade eletrônica, as equações dever ser resolvidas de forma auto consistente até atingirem um critério de convergência.
 
