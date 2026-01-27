@@ -590,3 +590,17 @@ mas se baseia na ideia de que a energia de Coulomb está ligada a como os átomo
     E_{coul} = \frac{1}{2}\sum_{a,b}\gamma_{ab}(R_{ab})\Delta q_a \Delta q_b
 \end{equation}
 em que $\Delta q_a$ é a variação da população eletrônica do átomo $a$.
+
+\subsection{Equação de Autovalores e Autovetores do DFTB}
+
+No DFT, as equações de Kohn-Sham são obtidas pela minimização do funcional de energia em relação a densidade eletrônica.\
+Já no DFTB, equações equivalentes e ainda mais simples podem ser obtidas considerando que os orbitais estão distribuidos muito próximos aos átomos.
+Cada função de onda eletrônica pode ser reescrita como combinação linear em uma base de funções usualmente localizadas em cada átomos
+\begin{equation}
+    \psi(\vec{r})_a = \sum_\mu c_\mu^a \phi_\mu(\vec{r})
+\end{equation}
+Isso permite que o termo de energia da estrutura de bandas possa ser reescrito como:
+\begin{equation}
+    E_{BS} = \sum_a\sum_\mu\sum_\nu c_\mu^{a*}c_\nu^a \langle \psi_\mu | \hat H^o |\psi_\nu \rangle = \sum_a\sum_\mu\sum_\nu c_\mu^{a*}c_\nu^a H^o__{\mu \nu}
+\end{equation}
+
