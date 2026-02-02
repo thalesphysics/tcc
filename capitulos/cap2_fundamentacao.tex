@@ -617,13 +617,13 @@ relacionadas a cada átomo. Isso pode ser feito de muitas maneira diferentes, ma
 Em que $\mathcal{V}$ é o volume total, e $\mathcal{V}_a$ é o volume relacionado ao átomo $a$.\
 Utilizando essa ideia, a carga de um átomo pode ser definida como:
 \begin{equation}
-    q_a = \int_{\mathcal{V}_a} \rho(\vec{r}) ~d^3 r = \sum_b \sum_\mu\sum_\nu c_\mu^{b*}c_\nu^b \int_{\mathcal{V}_a} \phi_\mu^{*}(\vec{r}) \phi_\nu^{*}(\vec{r}) ~d^3 r
+    q_a = \int_{\mathcal{V}_a} \rho(\vec{r}) ~d^3 r = \sum_b \sum_\mu\sum_\nu c_\mu^{b*}c_\nu^b \int_{\mathcal{V}_a} \phi_\mu^{*}(\vec{r}) \phi_\nu(\vec{r}) ~d^3 r
 \end{equation}
 É importante notar que se ambos orbitais estão localizados, $\mu$ e $\nu$ não estão localizados no átomo $a$, então a integral tende a zero. Enquanto que, se ambos pertencem ao mesmo átomo,\
 e a base utilizada é ortonormal, então a integral se torna $\delta_\mu^\nu$. Caso um orbital pertença ao átomo $a$, e o outro a um átomo diferente, então\
 a integral pode ser aproximada para:
 \begin{equation}
-    \int_{\mathcal{V}_a} \phi_\mu^{*}(\vec{r}) \phi_\nu^{*}(\vec{r}) ~d^3 r = \frac{1}{2}\int_{\mathcal{V}} \phi_\mu^{*}(\vec{r}) \phi_\nu^{*}(\vec{r}) ~d^3 r \equiv \frac{1}{2} S_{\mu \nu}
+    \int_{\mathcal{V}_a} \phi_\mu^{*}(\vec{r}) \phi_\nu(\vec{r}) ~d^3 r = \frac{1}{2}\int_{\mathcal{V}} \phi_\mu^{*}(\vec{r}) \phi_\nu(\vec{r}) ~d^3 r \equiv \frac{1}{2} S_{\mu \nu}
 \end{equation}
 Assim, a população eletrônica pode ser obtida subtraindo o número de valência $q^o_a$, da carga $q_a$,
 \begin{equation}
@@ -639,4 +639,3 @@ com
 \end{equation}
 
 Como a densidade eletrônica é obtida resolvendo a equação de autovalores e autovetoes, que depende da população, e a população eletrônica, por sua vez, depende da densidade eletrônica, as equações dever ser resolvidas de forma auto consistente até atingirem um critério de convergência.
-
