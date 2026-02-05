@@ -639,3 +639,211 @@ com
 \end{equation}
 
 Como a densidade eletrônica é obtida resolvendo a equação de autovalores e autovetoes, que depende da população, e a população eletrônica, por sua vez, depende da densidade eletrônica, as equações dever ser resolvidas de forma auto consistente até atingirem um critério de convergência.
+
+\section{O Grafeno}
+
+O grafeno é uma material composto por uma apenas uma camada atômica, caracterizando-o como material bi-dimensional. Sua superfície é formada por aneis hexagonais compostos apenas por átomos de carbono, o que o torna uma material extremamente simétrico.\
+Sua síntese foi feita pela primeira vez em 2004 por Andre Geim e Konstantin Novoselov, rendendo o premio Nobel.
+
+As propropriedaes físicas, composição e geometria do grafeno o tornam de muito interesse em muitas áreas da ciência dos materiais. Ele possui uma alta resistência mecânica quando submetido a estresse em seu plano, sua condutividade elétrica e térmica é extremamente alta, e sua razão superfície por massa propicia aplicações em processos catalícos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/vmdscene.dat.png}
+    \caption{Folha de grafeno}
+\end{figure}
+
+\subsection{Defeitos no Grafeno}
+
+Existem muitas maneiras diferentes de se sintetizar o grafeno. Contudo, todas as formas de sintese estão sujeitas ao surgimento de defeitos estruturais na superfície do grafeno.
+Os defeitos estruturais do grafeno podem ser constituidos na falta de um ou mais átomos na estrutura hexagonal, usualmente chamados de vacâncias, ou do rearranjo dos átomos, de modo a formar aneis não hexagonais, como é o caso do defeito de Stone-Wales.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/defeitos.png}
+    \caption{Defeitos estruturais do grafeno e seus meios de produção. Retirado de \cite{stonewales}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/defeitos_experimento.png}
+    \caption{Defeitos estruturais do grafeno observados experimentalmente. Retirado de \cite{bjorkman}}
+\end{figure}
+
+
+
+
+\section{Reação de Evolução de Hidrogênio (HER)}
+
+A reação de evolução de hidrogênio (HER, do inglês \textit{Hydrogen Evolution Reaction}) é um processo eletroquímico fundamental para a produção de hidrogênio por eletrólise da água. O hidrogênio é considerado uma fonte de energia promissora, pois apresenta alta densidade energética e sua utilização não gera emissão de dióxido de carbono, produzindo apenas água como subproduto.
+
+Durante a eletrólise da água, a HER ocorre no cátodo e sua eficiência depende diretamente do material utilizado como catalisador. A cinética dessa reação pode ser lenta na ausência de catalisadores adequados, o que motiva o estudo e o desenvolvimento de novos materiais catalíticos.
+
+\subsection{Aspectos gerais da HER}
+
+A HER envolve a redução de prótons ou moléculas de água na superfície de um eletrodo, levando à formação de hidrogênio molecular (\(\mathrm{H_2}\)). A reação global depende do meio eletrolítico utilizado.
+
+Em meio ácido, a reação pode ser descrita por:
+\begin{equation}
+2\mathrm{H}^+ + 2e^- \rightarrow \mathrm{H_2}.
+\end{equation}
+
+Em meio alcalino, a reação global é dada por:
+\begin{equation}
+2\mathrm{H_2O} + 2e^- \rightarrow \mathrm{H_2} + 2\mathrm{OH}^-.
+\end{equation}
+
+Embora a reação global seja simples, o processo ocorre por meio de etapas intermediárias que dependem das propriedades da superfície do catalisador.
+
+\subsection{Mecanismos elementares da HER}
+
+A HER ocorre por meio de três etapas principais, conhecidas como Volmer, Heyrovsky e Tafel. A etapa dominante depende do material catalítico e das condições do sistema.
+
+\subsection{Etapa de Volmer}
+
+A etapa de Volmer corresponde à adsorção de um átomo de hidrogênio na superfície do catalisador, formando uma espécie adsorvida \(\mathrm{H^*}\). Em meio ácido, essa etapa é descrita por:
+\begin{equation}
+\mathrm{H}^+ + e^- + * \rightarrow \mathrm{H^*},
+\end{equation}
+onde \( * \) representa um sítio ativo disponível na superfície.
+
+Em meio alcalino, a etapa de Volmer pode ser escrita como:
+\begin{equation}
+\mathrm{H_2O} + e^- + * \rightarrow \mathrm{H^*} + \mathrm{OH}^-.
+\end{equation}
+
+Essa etapa está relacionada à capacidade do catalisador de adsorver hidrogênio.
+
+\subsection{Etapa de Heyrovsky}
+
+Na etapa de Heyrovsky, o hidrogênio adsorvido reage com um próton ou com uma molécula de água, formando hidrogênio molecular:
+\begin{equation}
+\mathrm{H^*} + \mathrm{H}^+ + e^- \rightarrow \mathrm{H_2} + *,
+\end{equation}
+em meio ácido, ou
+\begin{equation}
+\mathrm{H^*} + \mathrm{H_2O} + e^- \rightarrow \mathrm{H_2} + \mathrm{OH}^- + *,
+\end{equation}
+em meio alcalino.
+
+\subsubsection{Etapa de Tafel}
+
+Na etapa de Tafel, dois átomos de hidrogênio adsorvidos na superfície do catalisador se combinam diretamente, formando uma molécula de hidrogênio:
+\begin{equation}
+2\mathrm{H^*} \rightarrow \mathrm{H_2} + 2*.
+\end{equation}
+
+Essa etapa não envolve transferência direta de elétrons e depende da proximidade entre os átomos de hidrogênio adsorvidos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/tafel.png}
+    \caption{Etapas na catálise de hidrogênio. Retirado de \cite{he2024advances}}
+\end{figure}
+
+
+\subsection{Catálise heterogênea na HER}
+
+Na HER, o catalisador atua facilitando as etapas da reação ao reduzir as barreiras energéticas associadas ao processo. Em catálise heterogênea, a reação ocorre na superfície do catalisador, onde as propriedades eletrônicas e estruturais do material influenciam a adsorção e a liberação do hidrogênio.
+
+Materiais metálicos, semicondutores e materiais bidimensionais podem apresentar atividade catalítica para HER. Além disso, a presença de defeitos, bordas ou dopantes pode alterar a atividade do catalisador ao modificar a interação entre o hidrogênio e a superfície.
+
+\subsection{Princípio de Sabatier}
+
+O princípio de Sabatier estabelece que um catalisador eficiente deve apresentar uma interação intermediária com os reagentes. No caso da HER, uma ligação muito fraca com o hidrogênio dificulta a adsorção, enquanto uma ligação muito forte impede a liberação da molécula de \(\mathrm{H_2}\).
+
+Dessa forma, a maior atividade catalítica ocorre quando o hidrogênio se liga à superfície de maneira equilibrada, permitindo tanto a adsorção quanto a dessorção.
+
+\subsection{Descritores catalíticos para a HER}
+
+Para comparar a atividade catalítica de diferentes materiais, utilizam-se descritores catalíticos. O descritor mais utilizado para a HER é a energia livre de adsorção do hidrogênio, indicada por \( \Delta G_{H^*} \).
+
+Valores de \( \Delta G_{H^*} \) próximos de zero indicam uma interação adequada entre o hidrogênio e a superfície catalítica, de acordo com o princípio de Sabatier. Esse conceito é amplamente utilizado para avaliar e comparar materiais catalíticos.
+
+\subsection{Importância dos estudos computacionais}
+
+Estudos experimentais de novos catalisadores podem exigir alto custo e tempo. Nesse contexto, métodos computacionais são ferramentas importantes para analisar, em nível atômico, as propriedades dos materiais e sua interação com o hidrogênio.
+
+Esses estudos permitem compreender como a estrutura eletrônica e a geometria da superfície influenciam a HER, auxiliando na seleção e no desenvolvimento de catalisadores mais eficientes.
+
+
+
+
+
+\section{Modelo do Eletrodo de Hidrogênio Computacional}
+
+\subsection{Descrição geral do modelo}
+
+O modelo do eletrodo de hidrogênio computacional (\textit{Computational Hydrogen Electrode} -- CHE) foi proposto para permitir o estudo teórico de reações eletroquímicas utilizando métodos de estrutura eletrônica, evitando a descrição explícita do eletrólito e do potencial aplicado. O modelo estabelece uma referência termodinâmica que conecta cálculos de energia total com potenciais eletroquímicos experimentais.
+
+No contexto da reação de evolução de hidrogênio, o CHE permite descrever a transferência de prótons e elétrons por meio da molécula de hidrogênio gasoso, que é tratada de forma direta em cálculos computacionais.
+
+\subsection{Referência termodinâmica do eletrodo de hidrogênio}
+
+O eletrodo padrão de hidrogênio é definido pela reação em equilíbrio:
+\begin{equation}
+\mathrm{H^+} + e^- \leftrightarrow \frac{1}{2}\mathrm{H_2}.
+\end{equation}
+
+No modelo CHE, assume-se que o potencial químico do par próton--elétron é equivalente à metade do potencial químico do hidrogênio molecular:
+\begin{equation}
+\mu(\mathrm{H^+} + e^-) = \frac{1}{2}\mu(\mathrm{H_2}).
+\end{equation}
+
+Essa aproximação permite eliminar a necessidade de tratar explicitamente espécies carregadas no eletrólito, tornando o problema tratável em cálculos de primeiros princípios.
+
+\subsection{Energia livre associada à adsorção do hidrogênio}
+
+Durante a HER, um átomo de hidrogênio pode se adsorver na superfície do catalisador, formando a espécie \(\mathrm{H^*}\). O processo de adsorção pode ser representado pela reação:
+\begin{equation}
+\frac{1}{2}\mathrm{H_2} + * \rightarrow \mathrm{H^*},
+\end{equation}
+onde \( * \) representa um sítio ativo disponível na superfície.
+
+A variação de energia livre associada a esse processo define a energia livre de adsorção do hidrogênio, \( \Delta G_{H^*} \).
+
+\subsection{Definição da energia livre de adsorção}
+
+A energia livre de adsorção do hidrogênio é definida como:
+\begin{equation}
+\Delta G_{H^*} = G_{H^*} - G_* - \frac{1}{2}G_{\mathrm{H_2}},
+\end{equation}
+onde \( G_{H^*} \) é a energia livre do sistema com hidrogênio adsorvido, \( G_* \) é a energia livre da superfície limpa e \( G_{\mathrm{H_2}} \) é a energia livre da molécula de hidrogênio gasoso.
+
+Cada termo de energia livre pode ser escrito como:
+\begin{equation}
+G = E_{\text{DFT}} + ZPE - TS,
+\end{equation}
+onde \( E_{\text{DFT}} \) é a energia total obtida por cálculos de estrutura eletrônica, \( ZPE \) é a energia de ponto zero e \( S \) é a entropia do sistema.
+
+\subsection{Separação dos termos energéticos}
+
+Substituindo a expressão da energia livre na definição de \( \Delta G_{H^*} \), obtém-se:
+\begin{equation}
+\Delta G_{H^*} =
+\left( E_{H^*} - E_* - \frac{1}{2}E_{\mathrm{H_2}} \right)
++ \left( ZPE_{H^*} - \frac{1}{2}ZPE_{\mathrm{H_2}} \right)
+- T\left( S_{H^*} - \frac{1}{2}S_{\mathrm{H_2}} \right).
+\end{equation}
+
+Essa expressão pode ser reorganizada como:
+\begin{equation}
+\Delta G_{H^*} = \Delta E_{H^*} + \Delta ZPE - T\Delta S,
+\end{equation}
+onde \( \Delta E_{H^*} \), \( \Delta ZPE \) e \( \Delta S \) representam, respectivamente, as contribuições eletrônica, vibracional e entrópica para o processo de adsorção.
+
+\subsection{Interpretação física dos termos}
+
+O termo \( \Delta E_{H^*} \) reflete a interação eletrônica entre o hidrogênio e a superfície catalítica, sendo o principal responsável pela variação de energia livre. A correção de energia de ponto zero, \( \Delta ZPE \), leva em conta os efeitos vibracionais quânticos do hidrogênio adsorvido. Já o termo entrópico \( T\Delta S \) está associado, principalmente, à perda de graus de liberdade quando o hidrogênio passa do estado gasoso para o estado adsorvido.
+
+Devido à alta entropia do hidrogênio molecular no estado gasoso, a contribuição entrópica costuma ser significativa e positiva, desfavorecendo a adsorção.
+
+\subsection{Relação com a atividade catalítica}
+
+O valor de \( \Delta G_{H^*} \) é utilizado como descritor da atividade catalítica para a HER. Quando \( \Delta G_{H^*} \approx 0 \), a superfície apresenta uma interação equilibrada com o hidrogênio, favorecendo tanto a adsorção quanto a formação e liberação de \(\mathrm{H_2}\).
+
+Valores muito negativos de \( \Delta G_{H^*} \) indicam ligação forte demais, dificultando a dessorção, enquanto valores positivos indicam adsorção fraca, resultando em baixa cobertura de hidrogênio. Essa relação está diretamente associada ao princípio de Sabatier e às curvas do tipo vulcão observadas para a HER.
+
+\subsection{Limitações do modelo}
+
+Apesar de sua ampla utilização, o modelo do eletrodo de hidrogênio computacional não descreve explicitamente efeitos do eletrólito, do pH ou de campos elétricos na interface eletrodo--eletrólito. Dessa forma, os resultados obtidos devem ser interpretados como tendências relativas entre diferentes materiais, e não como valores absolutos diretamente comparáveis a experimentos.

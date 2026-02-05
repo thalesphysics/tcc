@@ -5,9 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Bjorkman et al. 2013]{bjorkman}
+\abntrefinfo{Bjorkman et al.}{BJORKMAN et al.}{2013}
+{BJORKMAN, T. et al. Defects in bilayer silica and graphene: common trends in
+  diverse hexagonal two-dimensional systems.
+\emph{Scientific reports}, Nature Publishing Group UK London, v.~3, n.~1,
+  p.~3482, 2013.}
+
 \bibitem[Einstein 1905]{einstein1905}
 \abntrefinfo{Einstein}{EINSTEIN}{1905}
 {EINSTEIN, A. Zur elektrodynamik bewegter körper.
 \emph{Annalen der Physik}, 1905.}
+
+\bibitem[Tiwari et al. 2023]{stonewales}
+\abntrefinfo{Tiwari et al.}{TIWARI et al.}{2023}
+{TIWARI, S.~K. et al. Stone-wales defect in graphene.
+\emph{Small}, Wiley Online Library, v.~19, n.~44, p. 2303340, 2023.}
 
 \end{thebibliography}

@@ -3,9 +3,9 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{Sum\'ario}{4}{section*.4}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{4}{section*.5}%
+\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{5}{section*.5}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de tabelas}{4}{section*.6}%
+\contentsline {chapter}{Lista de tabelas}{5}{section*.6}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{6}{chapter.1}%
@@ -32,5 +32,28 @@
 \contentsline {subsection}{\numberline {2.6.1}Aproximação do Termo Repulsivo}{19}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Aproximação do Termo de Coulomb}{19}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}Equação de Autovalores e Autovetores do DFTB}{20}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}O Grafeno}{21}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Defeitos no Grafeno}{22}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.8}Reação de Evolução de Hidrogênio (HER)}{23}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Aspectos gerais da HER}{23}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Mecanismos elementares da HER}{24}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Etapa de Volmer}{24}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Etapa de Heyrovsky}{24}{subsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.4.1}Etapa de Tafel}{25}{subsubsection.2.8.4.1}%
+\contentsline {subsection}{\numberline {2.8.5}Catálise heterogênea na HER}{25}{subsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.8.6}Princípio de Sabatier}{25}{subsection.2.8.6}%
+\contentsline {subsection}{\numberline {2.8.7}Descritores catalíticos para a HER}{26}{subsection.2.8.7}%
+\contentsline {subsection}{\numberline {2.8.8}Importância dos estudos computacionais}{26}{subsection.2.8.8}%
+\contentsline {section}{\numberline {2.9}Modelo do Eletrodo de Hidrogênio Computacional}{26}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Descrição geral do modelo}{26}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Referência termodinâmica do eletrodo de hidrogênio}{26}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Energia livre associada à adsorção do hidrogênio}{27}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Definição da energia livre de adsorção}{27}{subsection.2.9.4}%
+\contentsline {subsection}{\numberline {2.9.5}Separação dos termos energéticos}{27}{subsection.2.9.5}%
+\contentsline {subsection}{\numberline {2.9.6}Interpretação física dos termos}{28}{subsection.2.9.6}%
+\contentsline {subsection}{\numberline {2.9.7}Relação com a atividade catalítica}{28}{subsection.2.9.7}%
+\contentsline {subsection}{\numberline {2.9.8}Limitações do modelo}{28}{subsection.2.9.8}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{29}{chapter.3}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{22}{section*.8}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{30}{section*.8}%
