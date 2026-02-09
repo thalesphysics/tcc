@@ -282,7 +282,6 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss10.tfm
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT ./main.lot
 INPUT ./main.lot
 INPUT main.lot
@@ -349,6 +348,11 @@ INPUT /home/geedai/Desktop/tcc/figuras/linhas.png
 INPUT /home/geedai/Desktop/tcc/figuras/linhas.png
 INPUT /home/geedai/Desktop/tcc/figuras/linhas.png
 INPUT /home/geedai/Desktop/tcc/figuras/linhas.png
+INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
+INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
+INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
+INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
+INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
 OUTPUT capitulos/cap4_resultados.aux
 OUTPUT capitulos/cap5_conclusao.aux
 INPUT ./main.bbl

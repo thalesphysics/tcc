@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.27)  9 FEB 2026 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.27)  9 FEB 2026 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,7 +978,7 @@ l.103
 
 LaTeX Warning: Citation `he2024advances' on page 5 undefined on input line 6.
 
-) [5] (./main.lot) [6]
+[5]) (./main.lot) [6]
 \openout2 = `capitulos/cap1_introducao.aux'.
 
  (./capitulos/cap1_introducao.tex) [7
@@ -1150,7 +1150,7 @@ Overfull \hbox (6.68427pt too wide) in paragraph at lines 645--647
 a ca-mada atô-mica, caracterizando-
  []
 
-</home/geedai/Desktop/tcc/figuras/vmdscene.dat.png, id=352, 1354.05875pt x 728.
+</home/geedai/Desktop/tcc/figuras/vmdscene.dat.png, id=359, 1354.05875pt x 728.
 7225pt>
 File: /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png Graphic file (type png)
 
@@ -1165,14 +1165,14 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.660 
        </home/geedai/Desktop/tcc/figuras/vmdscene.dat.png>]
-</home/geedai/Desktop/tcc/figuras/defeitos.png, id=359, 1578.89874pt x 868.2437
+</home/geedai/Desktop/tcc/figuras/defeitos.png, id=366, 1578.89874pt x 868.2437
 4pt>
 File: /home/geedai/Desktop/tcc/figuras/defeitos.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/defeitos.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/defeitos.png  used on
  input line 663.
 (pdftex.def)             Requested size: 455.0pt x 250.20769pt.
-</home/geedai/Desktop/tcc/figuras/defeitos_experimento.png, id=364, 1135.24126p
+</home/geedai/Desktop/tcc/figuras/defeitos_experimento.png, id=371, 1135.24126p
 t x 794.97pt>
 File: /home/geedai/Desktop/tcc/figuras/defeitos_experimento.png Graphic file (t
 ype png)
@@ -1194,7 +1194,7 @@ has been already used, duplicate ignored
 l.689 \end{equation}
                      </home/geedai/Desktop/tcc/figuras/defeitos_experimento.png
 >]
-</home/geedai/Desktop/tcc/figuras/tafel.png, id=382, 1391.1975pt x 654.445pt>
+</home/geedai/Desktop/tcc/figuras/tafel.png, id=389, 1391.1975pt x 654.445pt>
 File: /home/geedai/Desktop/tcc/figuras/tafel.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/tafel.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/tafel.png  used on in
@@ -1220,7 +1220,7 @@ l.756
 
 
 (./capitulos/cap3_metodologia.tex
-</home/geedai/Desktop/tcc/figuras/celula.png, id=419, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/celula.png, id=426, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/celula.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/celula.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/celula.png  used on i
@@ -1238,14 +1238,14 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.41 \begin{equation}
                       </home/geedai/Desktop/tcc/figuras/celula.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/CriaDefeito.png, id=432, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/CriaDefeito.png, id=439, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/CriaDefeito.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/CriaDefeito.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/CriaDefeito.png  used
  on input line 84.
 (pdftex.def)             Requested size: 455.0pt x 454.99464pt.
 [32]
-</home/geedai/Desktop/tcc/figuras/linhas.png, id=442, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/linhas.png, id=449, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/linhas.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/linhas.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/linhas.png  used on i
@@ -1257,14 +1257,30 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.98 
-      </home/geedai/Desktop/tcc/figuras/CriaDefeito.png (PNG copy)>]) [34
+      </home/geedai/Desktop/tcc/figuras/CriaDefeito.png (PNG copy)>]
+</home/geedai/Desktop/tcc/figuras/shurikens.png, id=454, 1284.8pt x 1835.85875p
+t>
+File: /home/geedai/Desktop/tcc/figuras/shurikens.png Graphic file (type png)
+<use /home/geedai/Desktop/tcc/figuras/shurikens.png>
+Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/shurikens.png  used o
+n input line 104.
+(pdftex.def)             Requested size: 455.0pt x 650.15169pt.
+ [34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.128 \include{capitulos/cap3_metodologia}
-                                           </home/geedai/Desktop/tcc/figuras/li
-nhas.png (PNG copy)>]
+l.107 
+       </home/geedai/Desktop/tcc/figuras/linhas.png (PNG copy)>]
+Overfull \vbox (2.485pt too high) has occurred while \output is active []
+
+ [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.107 
+       </home/geedai/Desktop/tcc/figuras/shurikens.png>]) [36]
 \openout2 = `capitulos/cap4_resultados.aux'.
 
 
@@ -1274,7 +1290,7 @@ No file capitulos/cap4_resultados.tex.
 No file capitulos/cap5_conclusao.tex.
 (./main.bbl
 bibitemlist
-) [35
+) [37
 
 
 
@@ -1307,11 +1323,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18831 strings out of 476162
- 300019 string characters out of 5794814
+ 18834 strings out of 476162
+ 300320 string characters out of 5794814
  1948975 words of memory out of 5000000
- 40156 multiletter control sequences out of 15000+600000
- 632186 words of font info for 161 fonts, out of 8000000 for 9000
+ 40161 multiletter control sequences out of 15000+600000
+ 628961 words of font info for 158 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  99i,13n,107p,1001b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
@@ -1328,10 +1344,10 @@ sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (36 pages, 5073243 bytes).
+Output written on main.pdf (38 pages, 7421524 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 668 compressed objects within 7 object streams
- 208 named destinations out of 1000 (max. 500000)
- 41473 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 685 compressed objects within 7 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 39430 words of extra memory for PDF output out of 42996 (max. 10000000)
 
