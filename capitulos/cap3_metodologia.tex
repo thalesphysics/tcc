@@ -1,6 +1,103 @@
 \chapter{Metodologia}
 
-Texto da met.
+\section{Criação das estruturas}
 
-Exemplo de citação \cite{einstein1905}.
+O grafeno é um estrutura composta apenas por hexagonos, enquanto que o defeito de Stone-Wales é caracterizado por dois pentagonos, e dois heptagonos.\
+A criação de um defeito de Stone-Wales no grafeno pode ser visto como uma reorganização atômica promovida por uma rotação de dois átomos de carbono vizinhos.
 
+Usualmente, a informação da estrutura de um material é armazenada como um arquivo de texto que possui todas as posições e tipos dos átomos. O processo de criaçao\
+das estruturas desse trabalho pode ser separado em três passos fundamentais. A criação da folha de grafeno, a criação dos defeitos, e a formação de um padrão de defeitos.
+
+\subsection{Formação da Folha de Grafeno}
+
+Uma folha de grafeno ideal é muito grande em relação as distâncias atômicas. Contudo, sua simetria permite definir uma célula tal que quando replicada periodicamente forma a estrutura ideal do grafeno.
+Essa célula pode ser formada de muitas maneiras diferentes, mas neste projeto será utilizado a menor célula retangular, pois facilita os cálculos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/celula.png}
+    \caption{Folha de grafeno em ciano. As flechas pretas representam os vetores da célula unitária, enquanto que os vetores rosas são as posições atômicas.}
+\end{figure}
+
+A posição atômica dos quatro átomos dentro de uma célula $(m,n)$, ou seja, replicada $m$ vezes na direção $x$, e $n$ vezes na direção $y$, é:
+\begin{equation}
+    \vec{r}_{ijk} = \vec{R}_{jk} + \vec{d}_i
+\end{equation}
+Com
+\begin{equation}
+    \vec{R_{jk}} = (3jl,\sqrt{3}kl)
+\end{equation}
+e
+\begin{equation}
+    \vec{d} = ((0,0),(l,0),(\frac{3}{2}l,\frac{\sqrt{3}}{2}l),(\frac{5}{2}l,\frac{\sqrt{3}}{2}l))
+\end{equation}
+com $l$ sendo a menor distância entre os átomos de carbono.
+
+\subsection{Formação dos Defeitos de Stone-Wales}
+
+Os defeitos de stone wales são caracterizados por uma rotação de $90^o$ de dois átomos próximos em relação ao seu centro de massa.\
+Isso pode ser feito por meio de uma série de transformações lineares. Dado dois átomos próximos com posições $\vec{r}_1$ e $\vec{r}_2$ relativas a um referencial qualquer no plano,
+o centro entre as duas posições é
+\begin{equation}
+    \vec{c} = \frac{\vec{r}_1 + \vec{r}_2}{2}
+\end{equation}
+assim, as posições dos átomos com relação ao centro é
+\begin{equation}
+    \vec{r^*}_1  = \vec{r}_1 - \vec{c}
+\end{equation}
+\begin{equation}
+    \vec{r^*}_2 = \vec{r}_2 - \vec{c}
+\end{equation}
+a nova posição dos átomos é dada pela posição do centro mais a posição dos átomos relativa ao centro rotacionados em $90^o$,
+\begin{equation}
+    \vec{r}_{1 final}  = R\left(\frac{\pi}{2}\right)\vec{r^*}_1
+\end{equation}
+\begin{equation}
+    \vec{r}_{2 final}  = R\left(\frac{\pi}{2}\right)\vec{r^*}_2
+\end{equation}
+em que $R\left(\frac{\pi}{2}\right)$ é uma rotação de $90^o$ nos vetores. A forma matricial dessa transformação em uma dada base pode ser representada como:
+
+\[
+\frac{1}{2}\begin{pmatrix}
+0 & -1 & 0 & 1 \\
+1 & 0 & -1 & 0 \\
+0 & 1 & 0 & -1 \\
+-1 & 0 & 1 & 0
+\end{pmatrix}
+\begin{pmatrix}
+x_1 \\
+y_1 \\
+x_2 \\
+y_2
+\end{pmatrix}
+=
+\begin{pmatrix}
+x_{1 final} \\
+y_{1 final} \\
+x_{2 final} \\
+y_{2 final}
+\end{pmatrix}
+\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/CriaDefeito.png}
+    \caption{Folha de grafeno antes da transformação a esquerda, e folha de grafeno depois da transformação a direita.}
+\end{figure}
+
+\subsection{Estruturas Estudadas}
+
+Por conta de limitações computacionais e simplicidade, é preferível estudar estruturas cuja célula unitária é a menor possível. Isso nos leva a estudar estruturas formadas por linhas paralelas de defeitos de Stone-Wales.\
+Esse tipo de estrutura pode ser caracterizado por um espaçamento entre as linhas, e o número de linhas juntas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{/home/geedai/Desktop/tcc/figuras/linhas.png}
+    \caption{Em vermelho estão os pentagonos e heptagonos formados pelos defeitos, e em ciano estão os hexagonos do grafeno. A flecha superior indica a espessura das linhas de defeitos, e a flecha inferior indica a distância entre as linhas de defeitos}
+\end{figure}
+
+\section{Pacotes Computacionais Utilizados}
+
+\section{Ambiente Computacional}
+
+\section{Analise de Dados}
