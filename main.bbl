@@ -17,6 +17,26 @@
 {EINSTEIN, A. Zur elektrodynamik bewegter körper.
 \emph{Annalen der Physik}, 1905.}
 
+\bibitem[He et al. 2024]{he2024advances}
+\abntrefinfo{He et al.}{HE et al.}{2024}
+{HE, H. et al. Advances and practical prospects for bias-free
+  photovoltaic-driven electrochemical water splitting systems.
+\emph{Advanced Energy Materials}, Wiley Online Library, v.~14, n.~11, p.
+  2303713, 2024.}
+
+\bibitem[Hourahine et al. 2025]{hourahine2025recent}
+\abntrefinfo{Hourahine et al.}{HOURAHINE et al.}{2025}
+{HOURAHINE, B. et al. Recent developments in dftb+, a software package for
+  efficient atomistic quantum mechanical simulations.
+\emph{The Journal of Physical Chemistry A}, ACS Publications, 2025.}
+
+\bibitem[Soler et al. 2002]{soler2002siesta}
+\abntrefinfo{Soler et al.}{SOLER et al.}{2002}
+{SOLER, J.~M. et al. The siesta method for ab initio order-n materials
+  simulation.
+\emph{Journal of physics: Condensed matter}, v.~14, n.~11, p. 2745--2779,
+  2002.}
+
 \bibitem[Tiwari et al. 2023]{stonewales}
 \abntrefinfo{Tiwari et al.}{TIWARI et al.}{2023}
 {TIWARI, S.~K. et al. Stone-wales defect in graphene.

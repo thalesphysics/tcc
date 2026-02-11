@@ -353,6 +353,11 @@ INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
 INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
 INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
 INPUT /home/geedai/Desktop/tcc/figuras/shurikens.png
+INPUT /home/geedai/Desktop/tcc/figuras/fluxograma.png
+INPUT /home/geedai/Desktop/tcc/figuras/fluxograma.png
+INPUT /home/geedai/Desktop/tcc/figuras/fluxograma.png
+INPUT /home/geedai/Desktop/tcc/figuras/fluxograma.png
+INPUT /home/geedai/Desktop/tcc/figuras/fluxograma.png
 OUTPUT capitulos/cap4_resultados.aux
 OUTPUT capitulos/cap5_conclusao.aux
 INPUT ./main.bbl

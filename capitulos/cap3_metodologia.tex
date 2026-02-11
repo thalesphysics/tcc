@@ -107,6 +107,54 @@ Isso conduz ao estudo de estruturas chamadas de Shuriken, formadas a partir da r
 
 \section{Pacotes Computacionais Utilizados}
 
+Para a solução numérica das equações de Kohn-Sham, foi utilizado o pacote computacional SIESTA \cite{soler2002siesta}. Esse pacote utiliza a expansão da densidade eletrônica em uma base de funções gaussianas. Isso torna as simulações rápidas, e\
+mantém um ótimo grau de precisão para materiais baseados em carbono. Além disso, para simulações envolvendo a aproximação do DFTB, foi utilizado o pacote DFTB+ \cite{hourahine2025recent}. Ambos programas, resolvem as equações de maneira autoconsistente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/home/geedai/Desktop/tcc/figuras/fluxograma.png}
+    \caption{Fluxograma do código SIESTA. Retirado de \url{https://docs.siesta-project.org/projects/siesta/en/5.0/tutorials/basic/scf-convergence/}}
+\end{figure}
+
 \section{Ambiente Computacional}
+
+\subsection{Base de Funções, e Funcional de Troca}
+
+Dois parâmetros da simulação que dever ser escolhidos é o tipo de base em que as funções de onda serão expandidas, e a aproximação utilizada para o funcional de troca. Ambas escolhas são feitas com base na complexidade e tipo do material.\
+Em nossas simulações foi utilizado uma base de funções chamada dual zeta with polarization (DZP). Essa é uma base de funções localizadas muito utilizada em simulações de materiais. O funcional de troca foi utilizado o generalized gradient approximation (GGA)\
+que utiliza a densidade eletrônica e seu gradiente para obter a energia, levando a bons resultados para materiais de carbono.
+
+\subsection{Condições de Contorno e Tamanho das Células}
+
+Limitações computacionais nos levam sempre a considerar apenas um volume finito, e preferencialmente o menor possível para um dado material. Portanto, o tamanho das caixas de simulação são definidas com condições de contorno periódicas em todas as direções. Além disso, o tamanho nas direções paralelas a folha são definidos a conter a célula unitária,\
+e o tamanho na direção perpendicular é sempre mantido em $20 \AA$, de modo as imagens periódicas não possuem efeitos de interação consideráveis.
+
+\subsection{Precisão Numérica}
+
+O erro numérico nos cálculos de DFT não são fácilmente estimados. Contudo, pode-se definir alguns critérios de precisão.
+
+Um importante critério é o tamanho da grade de pontos k. Essa grade é utilizada para o cálculo de integrais para obter-se algumas propriedades físicas do sistema, como a densidade eletrônica e a energia.\
+Assim, o critério utilizado em nossas simulações é que ao variar em um o número de pontos k em cada direção, a variação da energia calculada seja menor do que $10^{⁻2}~eV$.
+
+Outro critério relevante é o corte de malha, ou mesh cutoff, que indica o quão fina é a malha utilizada para cálculos como, por exemplo, o potêncial de Hartree. Foi utilizado um valor de mesh cutoff de $275~Ry$.
+
+\subsection{Minimização da Energia}
+
+A posição exata que os átomos assumem em um material real varia com o tempo. Isso ocorre pela agitação térmica das partículas, que gera oscilações em todas as direções. Contudo,\
+a baixas temperaturas, essas oscilações ocorrem ao redor de posições de equilíbrio do material, nos levando a considerar essas posições de equilíbrio como as mais importantes para o cálculo das propriedades físicas.
+
+Antes da simulação, as posições atômicas são escolhidas de maneira arbitrária de modo a deixar os átomos próximos de uma posição de equilíbrio local. Assim, é utilizado algorítmos de minimização de funções de muitas variáveis,\
+com o intuito de achar posições atômicas tais que:
+\begin{equation}
+  \frac{\partial E}{\partial  x_{ij}} = 0
+\end{equation}
+\begin{equation}
+  \frac{\partial^2 E}{\partial x_{ij}^2} > 0
+\end{equation}
+em que $ x_{ij}$ é a coordenada $i$ do átomo $j$.
+
+Em geral, o principal critério de convergência para esse método, é a norma infinito do módulo das forças de cada átomo. Neste trabalho, foi utilizado o critério de maior força como $0.005~eV/\AA$.
+
+
 
 \section{Analise de Dados}
