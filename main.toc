@@ -65,6 +65,9 @@
 \contentsline {subsection}{\numberline {3.3.2}Condições de Contorno e Tamanho das Células}{37}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Precisão Numérica}{37}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Minimização da Energia}{37}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Analise de Dados}{38}{section.3.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados}}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estruturas de Linhas de Defeitos}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Estruturas de Shuriken}{40}{section.4.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{39}{section*.8}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{41}{section*.8}%
