@@ -374,6 +374,11 @@ INPUT /home/geedai/Desktop/tcc/figuras/linesbottom.jpg
 INPUT /home/geedai/Desktop/tcc/figuras/linesbottom.jpg
 INPUT /home/geedai/Desktop/tcc/figuras/linesbottom.jpg
 INPUT /home/geedai/Desktop/tcc/figuras/linesbottom.jpg
+INPUT ./figuras/Buckling.png
+INPUT ./figuras/Buckling.png
+INPUT ./figuras/Buckling.png
+INPUT ./figuras/Buckling.png
+INPUT ./figuras/Buckling.png
 OUTPUT capitulos/cap5_conclusao.aux
 INPUT ./main.bbl
 INPUT ./main.bbl
