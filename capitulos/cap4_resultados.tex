@@ -6,27 +6,61 @@ Os resultados referentes as simulações das estruturas com padrões de linhas d
 As figuras \ref{line1} e \ref{line2}, exibem uma melhora do comportamento catalítico nos sítios localizados na região central dos defeitos, e, em especial, em regiões de união entre os defeitos.
 
 \begin{figure}[H]
-    \label{line1}
     \centering
     \includegraphics[width=0.9\textwidth]{/home/geedai/Desktop/tcc/figuras/lines.jpg}
     \caption{Estruturas com defeitos de padrões de linhas, organizada por espessura da linha no eixo vertical, e distância entre linhas no eixo horizontal. A variação da energia livre de Gibbs é representada pelo mapa de cores.}
+    \label{line1}
 \end{figure}
 
 \begin{figure}[H]
-    \label{line2}
     \centering
     \includegraphics[width=0.9\textwidth]{/home/geedai/Desktop/tcc/figuras/linesbottom.jpg}
     \caption{Estruturas com defeitos de padrões de linhas, organizada por espessura da linha no eixo vertical, e distância entre linhas no eixo horizontal. A variação da energia livre de Gibbs é representada pelo mapa de cores.}
+    \label{line2}
 \end{figure}
 
 Além da mudança clara do $\Delta G$ em relação a estrutura pristina do grafeno, é notável a diferença entre os dois lados da folha de grafeno modificada. A adição de um único defeito mantém a simetria entre os dois lados da folha, mas\
 a união entre dois defeitos cria um efeito de rugosidade, como apresentado na figura \ref{buckling} que cria uma diferença no $\Delta G$ em cada lado da mesma estrutura.
 
 \begin{figure}[H]
-    \label{buckling}
     \centering
     \includegraphics[width=0.9\textwidth]{figuras/Buckling.png}
     \caption{Acima estrutura com uma linha de defeito isolada, e abaixo uma estrutura com união de linhas de defeito.}
+    \label{buckling}
 \end{figure}
 
 \section{Estruturas de Shuriken}
+
+As estruturas do tipo shuriken-3 e 4 apresentaram redução no valor da energia livre de Gibbs em relação ao grafeno pristino em certos átomos localizados nos aneis dos defeitos de Stone-Wales, formando alguns sítios próprios para a catálise.\
+Já o shuriken-6 apresentou uma intensa mudança do $\Delta G$, chegando a valores negativos, e muitos sítios com $\Delta G$ proximos de zero.
+
+Todas as estruturas do tipo shuriken apresentaram efeitos de curvatura em sua superfície que criam as diferenças do $\Delta G$ em cada lado, como apresentado na figura \ref{sks}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{/home/geedai/Desktop/tcc/figuras/shurikens_dg.png}
+    \caption{Estruturas do tipo shuriken com mapa de cor do $\Delta G$ em cada lado da superfície.}
+    \label{sks}
+\end{figure}
+
+\section{Analise da Curvatura}
+
+Foi observado que a adição de defeitos de Stone-Wales isolados na estrutura do grafeno mantém a superfície plana e portanto simétrica em relação ao eixo z. Por outro lado, a uniao de defeitos gera rugosidade na superfície, criando uma diferença de energia livre de adsorção de hidrogênio em cada lado.\
+Dessa forma, faz sentido verificar como a diferença de $\Delta G$ em cada lado é afetada pela curvatura local da superfície.
+
+A relação entre a diferença de $\Delta G$ e a curvatura é exibida na figura \ref{curva1} e \ref{curva2}, apresentando uma grande correlação linear entre esses dois fatores. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{/home/geedai/Desktop/tcc/figuras/curvature_lines.png}
+    \caption{Diferença de $\Delta G$ em cada lado da superfície para cada sítio pela curvatura local no sítio para estruturas de linha.}
+    \label{curva1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{/home/geedai/Desktop/tcc/figuras/curvature_shuriken.png}
+    \caption{Diferença de $\Delta G$ em cada lado da superfície para cada sítio pela curvatura local no sítio para estruturas de shuriken.}
+    \label{curva2}
+\end{figure}
+
+Os coeficientes angulares das retas ajustadas são A = 4.065 ± 0.144 para estruturas de linhas e A = 3.655 ± 0.319 para estruturas shuriken.
