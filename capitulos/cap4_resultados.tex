@@ -64,3 +64,29 @@ A relação entre a diferença de $\Delta G$ e a curvatura é exibida na figura 
 \end{figure}
 
 Os coeficientes angulares das retas ajustadas são A = 4.065 ± 0.144 para estruturas de linhas e A = 3.655 ± 0.319 para estruturas shuriken.
+
+
+\section{Comparação Entre DFTB e DFT}
+
+A comparação entre os o método do DFT e o DFTB é apresentada na figura \ref{dftb_dft}, em que cada ponto é o valor do $\Delta G$ de um sítio em um dos lados da superfície das estruturas de linha e shuriken. A linha reta se refere aos valores em que os dois métodos concordam, enquanto que valores longe da linha apresentam discrepância entre os métodos.
+
+É evidente que alguns pontos apresentam um grande distânciamento da reta identidade. Contudo, a grande maioria dos pontos seguem a mesma tendência da reta, mas com uma certa defasagem em relação ao eixo vertical.\
+Isso sugere que os métodos concordam entre sí quanto ao comportamento do sistema, mas discordam dos valores com um erro quadrático médio (RMSE) de 0.4 eV.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figuras/dftb_dft.png}
+    \caption{Valores de $\Delta G$ para os sítios das estruturas de linha e shuriken utilizando os métodos de DFTB (eixo y) e DFT (eixo x). A linha rosa é a reta identidade.}
+    \label{dftb_dft}
+\end{figure}
+
+Como a relação entre o DFT e o DFTB é aparentemente linear, pode-se realizar uma correção desse tipo ajustando uma reta no gráfico. Isso é apresentado na figura \ref{dftb_fit},\
+onde a reta é $\Delta G_{DFT} = 0.767 \Delta G_{DFTB} + 0.469$ eV. Além disso, o RMSE para o ajuste é de $0.243$, fazendo com que os valores calculados utilizando o DFTB muito próximos a zero estejam dentro do intervalo ideal de $\Delta G$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{dftb_dft_fit.png}
+    \caption{Valores de $\Delta G$ para os sítios das estruturas de linha e shuriken utilizando os métodos de DFTB (eixo x) e DFT (eixo y). A linha laranja é um ajuste linear, e o sombreamento laranja é a região de incerteza.}
+    \label{dftb_fit}
+\end{figure}
+

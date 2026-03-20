@@ -290,6 +290,7 @@ INPUT ./capitulos/cap1_introducao.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 OUTPUT capitulos/cap1_introducao.aux
 INPUT ./capitulos/cap1_introducao.tex
 INPUT ./capitulos/cap1_introducao.tex
@@ -303,7 +304,6 @@ INPUT capitulos/cap2_fundamentacao.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png
@@ -398,7 +398,16 @@ INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT ./figuras/dftb_dft.png
+INPUT ./figuras/dftb_dft.png
+INPUT ./figuras/dftb_dft.png
+INPUT ./figuras/dftb_dft.png
+INPUT ./figuras/dftb_dft.png
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT ./figuras/dftb_dft_fit.png
+INPUT ./figuras/dftb_dft_fit.png
+INPUT ./figuras/dftb_dft_fit.png
+INPUT ./figuras/dftb_dft_fit.png
 OUTPUT capitulos/cap5_conclusao.aux
 INPUT ./main.bbl
 INPUT ./main.bbl

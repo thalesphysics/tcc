@@ -1,17 +1,19 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Folha de grafeno}}{22}{figure.2.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Defeitos estruturais do grafeno e seus meios de produção. Retirado de \cite {stonewales}}}{23}{figure.2.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Defeitos estruturais do grafeno observados experimentalmente. Retirado de \cite {bjorkman}}}{24}{figure.2.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Etapas na catálise de hidrogênio. Retirado de \cite {he2024advances}}}{26}{figure.2.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Folha de grafeno em ciano. As flechas pretas representam os vetores da célula unitária, enquanto que os vetores rosas são as posições atômicas.}}{31}{figure.3.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Folha de grafeno antes da transformação a esquerda, e folha de grafeno depois da transformação a direita.}}{33}{figure.3.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Em vermelho estão os pentagonos e heptagonos formados pelos defeitos, e em ciano estão os hexagonos do grafeno. A flecha superior indica a espessura das linhas de defeitos, e a flecha inferior indica a distância entre as linhas de defeitos}}{34}{figure.3.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Em azul está o hexagno central, e em vermelho os átomos rotacionados que formam o padrão de defeito.}}{35}{figure.3.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Fluxograma do código SIESTA. Retirado de \url {https://docs.siesta-project.org/projects/siesta/en/5.0/tutorials/basic/scf-convergence/}}}{36}{figure.3.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Estruturas com defeitos de padrões de linhas, organizada por espessura da linha no eixo vertical, e distância entre linhas no eixo horizontal. A variação da energia livre de Gibbs é representada pelo mapa de cores.}}{39}{figure.4.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Estruturas com defeitos de padrões de linhas, organizada por espessura da linha no eixo vertical, e distância entre linhas no eixo horizontal. A variação da energia livre de Gibbs é representada pelo mapa de cores.}}{40}{figure.4.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Acima estrutura com uma linha de defeito isolada, e abaixo uma estrutura com união de linhas de defeito.}}{41}{figure.4.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Estruturas do tipo shuriken com mapa de cor do $\Delta G$ em cada lado da superfície.}}{43}{figure.4.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Diferença de $\Delta G$ em cada lado da superfície para cada sítio pela curvatura local no sítio para estruturas de linha.}}{44}{figure.4.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Diferença de $\Delta G$ em cada lado da superfície para cada sítio pela curvatura local no sítio para estruturas de shuriken.}}{45}{figure.4.15}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Folha de grafeno}}{23}{figure.2.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Defeitos estruturais do grafeno e seus meios de produção. Retirado de \cite {stonewales}}}{24}{figure.2.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Defeitos estruturais do grafeno observados experimentalmente. Retirado de \cite {bjorkman}}}{25}{figure.2.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Etapas na catálise de hidrogênio. Retirado de \cite {he2024advances}}}{27}{figure.2.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Folha de grafeno em ciano. As flechas pretas representam os vetores da célula unitária, enquanto que os vetores rosas são as posições atômicas.}}{32}{figure.3.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Folha de grafeno antes da transformação a esquerda, e folha de grafeno depois da transformação a direita.}}{34}{figure.3.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Em vermelho estão os pentagonos e heptagonos formados pelos defeitos, e em ciano estão os hexagonos do grafeno. A flecha superior indica a espessura das linhas de defeitos, e a flecha inferior indica a distância entre as linhas de defeitos}}{35}{figure.3.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Em azul está o hexagno central, e em vermelho os átomos rotacionados que formam o padrão de defeito.}}{36}{figure.3.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Fluxograma do código SIESTA. Retirado de \url {https://docs.siesta-project.org/projects/siesta/en/5.0/tutorials/basic/scf-convergence/}}}{37}{figure.3.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Estruturas com defeitos de padrões de linhas, organizada por espessura da linha no eixo vertical, e distância entre linhas no eixo horizontal. A variação da energia livre de Gibbs é representada pelo mapa de cores.}}{40}{figure.4.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Estruturas com defeitos de padrões de linhas, organizada por espessura da linha no eixo vertical, e distância entre linhas no eixo horizontal. A variação da energia livre de Gibbs é representada pelo mapa de cores.}}{41}{figure.4.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Acima estrutura com uma linha de defeito isolada, e abaixo uma estrutura com união de linhas de defeito.}}{42}{figure.4.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Estruturas do tipo shuriken com mapa de cor do $\Delta G$ em cada lado da superfície.}}{44}{figure.4.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Diferença de $\Delta G$ em cada lado da superfície para cada sítio pela curvatura local no sítio para estruturas de linha.}}{45}{figure.4.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Diferença de $\Delta G$ em cada lado da superfície para cada sítio pela curvatura local no sítio para estruturas de shuriken.}}{46}{figure.4.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Valores de $\Delta G$ para os sítios das estruturas de linha e shuriken utilizando os métodos de DFTB (eixo y) e DFT (eixo x). A linha rosa é a reta identidade.}}{47}{figure.4.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Valores de $\Delta G$ para os sítios das estruturas de linha e shuriken utilizando os métodos de DFTB (eixo x) e DFT (eixo y). A linha laranja é um ajuste linear, e o sombreamento laranja é a região de incerteza.}}{48}{figure.4.17}%

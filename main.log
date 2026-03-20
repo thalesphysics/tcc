@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.27)  18 MAR 2026 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.27)  20 MAR 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,24 +981,24 @@ Overfull \hbox (2.79364pt too wide) in paragraph at lines 11--11
  []
 
 ) (./main.lot) [6{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/tex
-mf/fonts/enc/dvips/lm/lm-mathit.enc}]
+mf/fonts/enc/dvips/lm/lm-mathit.enc}] [7]
 \openout2 = `capitulos/cap1_introducao.aux'.
 
  (./capitulos/cap1_introducao.tex)
-[7
+[8
 
 
 ]
 \openout2 = `capitulos/cap2_fundamentacao.aux'.
 
- (./capitulos/cap2_fundamentacao.tex [8
+ (./capitulos/cap2_fundamentacao.tex [9
 
 
 
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathex.enc}] [9] [10]
-[11] [12] [13]
+dvips/lm/lm-mathex.enc}] [10]
+[11] [12] [13] [14]
 Overfull \hbox (5.49274pt too wide) detected at line 236
 [][][][] [] \OML/lmm/m/it/12  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12  []\OT1/lm
 r/m/n/12 ([])\OML/lmm/m/it/12 dr[] []  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12  
@@ -1008,7 +1008,7 @@ r/m/n/12 ([])\OML/lmm/m/it/12 dr[] []  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12
 m/n/12 = \OML/lmm/m/it/12 E
  []
 
-[14]
+[15]
 ! Undefined control sequence.
 <recently read> \multirow 
                           
@@ -1130,30 +1130,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15] [16
+[16] [17
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.374 
-      ] [17]
+      ] [18]
 Overfull \hbox (6.03465pt too wide) detected at line 428
 [][][][] [] [] \OML/lmm/m/it/12 ^^N [] d[]r \OT1/lmr/m/n/12 = 0
  []
 
-[18] [19]
+[19] [20]
 Overfull \hbox (3.52794pt too wide) detected at line 577
 [][][]\OML/lmm/m/it/12 E[] \OT1/lmr/m/n/12 = [] [] [] \OML/lmm/m/it/12 d[]rd[]r
 [] \OT1/lmr/m/n/12 = [] [] [] \OML/lmm/m/it/12 d[]rd[]r[]
  []
 
-[20] [21]
+[21] [22]
 Overfull \hbox (6.68427pt too wide) in paragraph at lines 645--647
 []\T1/lmr/m/n/12 (-20) O gra-feno é uma ma-te-rial com-posto por uma ape-nas um
 a ca-mada atô-mica, caracterizando-
  []
 
-</home/geedai/Desktop/tcc/figuras/vmdscene.dat.png, id=399, 1354.05875pt x 728.
+</home/geedai/Desktop/tcc/figuras/vmdscene.dat.png, id=413, 1354.05875pt x 728.
 7225pt>
 File: /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png Graphic file (type png)
 
@@ -1161,21 +1161,21 @@ File: /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png Graphic file (type png)
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png  use
 d on input line 652.
 (pdftex.def)             Requested size: 455.0pt x 244.87132pt.
-[22
+[23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.660 
        </home/geedai/Desktop/tcc/figuras/vmdscene.dat.png>]
-</home/geedai/Desktop/tcc/figuras/defeitos.png, id=406, 1578.89874pt x 868.2437
+</home/geedai/Desktop/tcc/figuras/defeitos.png, id=421, 1578.89874pt x 868.2437
 4pt>
 File: /home/geedai/Desktop/tcc/figuras/defeitos.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/defeitos.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/defeitos.png  used on
  input line 663.
 (pdftex.def)             Requested size: 455.0pt x 250.20769pt.
-</home/geedai/Desktop/tcc/figuras/defeitos_experimento.png, id=411, 1135.24126p
+</home/geedai/Desktop/tcc/figuras/defeitos_experimento.png, id=426, 1135.24126p
 t x 794.97pt>
 File: /home/geedai/Desktop/tcc/figuras/defeitos_experimento.png Graphic file (t
 ype png)
@@ -1183,13 +1183,13 @@ ype png)
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/defeitos_experimento.
 png  used on input line 669.
 (pdftex.def)             Requested size: 455.0pt x 318.62527pt.
- [23
+ [24
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.672 
-       </home/geedai/Desktop/tcc/figuras/defeitos.png>] [24
+       </home/geedai/Desktop/tcc/figuras/defeitos.png>] [25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1197,69 +1197,69 @@ has been already used, duplicate ignored
 l.689 \end{equation}
                      </home/geedai/Desktop/tcc/figuras/defeitos_experimento.png
 >]
-</home/geedai/Desktop/tcc/figuras/tafel.png, id=430, 1391.1975pt x 654.445pt>
+</home/geedai/Desktop/tcc/figuras/tafel.png, id=444, 1391.1975pt x 654.445pt>
 File: /home/geedai/Desktop/tcc/figuras/tafel.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/tafel.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/tafel.png  used on in
 put line 740.
 (pdftex.def)             Requested size: 455.0pt x 214.0402pt.
- [25] [26
+ [26] [27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.756 
-       </home/geedai/Desktop/tcc/figuras/tafel.png>] [27] [28]) [29]
+       </home/geedai/Desktop/tcc/figuras/tafel.png>] [28] [29]) [30]
 \openout2 = `capitulos/cap3_metodologia.aux'.
 
 
 (./capitulos/cap3_metodologia.tex
-</home/geedai/Desktop/tcc/figuras/celula.png, id=470, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/celula.png, id=485, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/celula.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/celula.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/celula.png  used on i
 nput line 18.
 (pdftex.def)             Requested size: 455.0pt x 454.99464pt.
- [30
+ [31
 
 
 
 
-] [31
+] [32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.41 \begin{equation}
                       </home/geedai/Desktop/tcc/figuras/celula.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/CriaDefeito.png, id=483, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/CriaDefeito.png, id=497, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/CriaDefeito.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/CriaDefeito.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/CriaDefeito.png  used
  on input line 84.
 (pdftex.def)             Requested size: 455.0pt x 454.99464pt.
-[32]
-</home/geedai/Desktop/tcc/figuras/linhas.png, id=493, 963.6pt x 963.6pt>
+[33]
+</home/geedai/Desktop/tcc/figuras/linhas.png, id=507, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/linhas.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/linhas.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/linhas.png  used on i
 nput line 95.
 (pdftex.def)             Requested size: 455.0pt x 454.99464pt.
- [33
+ [34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.98 
       </home/geedai/Desktop/tcc/figuras/CriaDefeito.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/shurikens.png, id=498, 1284.8pt x 1835.85875p
+</home/geedai/Desktop/tcc/figuras/shurikens.png, id=512, 1284.8pt x 1835.85875p
 t>
 File: /home/geedai/Desktop/tcc/figuras/shurikens.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/shurikens.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/shurikens.png  used o
 n input line 104.
 (pdftex.def)             Requested size: 455.0pt x 650.15169pt.
- [34
+ [35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1268,14 +1268,14 @@ l.107
        </home/geedai/Desktop/tcc/figuras/linhas.png (PNG copy)>]
 Overfull \vbox (2.485pt too high) has occurred while \output is active []
 
- [35
+ [36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.107 
        </home/geedai/Desktop/tcc/figuras/shurikens.png>]
-</home/geedai/Desktop/tcc/figuras/fluxograma.png, id=512, 2164.085pt x 1415.287
+</home/geedai/Desktop/tcc/figuras/fluxograma.png, id=528, 2164.085pt x 1415.287
 5pt>
 File: /home/geedai/Desktop/tcc/figuras/fluxograma.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/fluxograma.png>
@@ -1286,7 +1286,7 @@ on input line 115.
 
 LaTeX Warning: Command \r invalid in math mode on input line 130.
 
-[36
+[37
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1309,56 +1309,56 @@ You may provide a definition with
 
 LaTeX Warning: Command \r invalid in math mode on input line 156.
 
-) [37]
+) [38]
 \openout2 = `capitulos/cap4_resultados.aux'.
 
  (./capitulos/cap4_resultados.tex
-</home/geedai/Desktop/tcc/figuras/lines.jpg, id=533, 597.60106pt x 845.26315pt>
+</home/geedai/Desktop/tcc/figuras/lines.jpg, id=547, 597.60106pt x 845.26315pt>
 
 File: /home/geedai/Desktop/tcc/figuras/lines.jpg Graphic file (type jpg)
 <use /home/geedai/Desktop/tcc/figuras/lines.jpg>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/lines.jpg  used on in
 put line 10.
 (pdftex.def)             Requested size: 409.49722pt x 579.20815pt.
- [38
+ [39
 
 
 
 
 ]
-</home/geedai/Desktop/tcc/figuras/linesbottom.jpg, id=538, 597.60106pt x 845.26
+</home/geedai/Desktop/tcc/figuras/linesbottom.jpg, id=552, 597.60106pt x 845.26
 315pt>
 File: /home/geedai/Desktop/tcc/figuras/linesbottom.jpg Graphic file (type jpg)
 <use /home/geedai/Desktop/tcc/figuras/linesbottom.jpg>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/linesbottom.jpg  used
  on input line 17.
 (pdftex.def)             Requested size: 409.49722pt x 579.20815pt.
- [39
+ [40
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.21 
-      </home/geedai/Desktop/tcc/figuras/lines.jpg>] [40
+      </home/geedai/Desktop/tcc/figuras/lines.jpg>] [41
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.24 
       </home/geedai/Desktop/tcc/figuras/linesbottom.jpg>]
-<figuras/Buckling.png, id=548, 1194.71344pt x 1690.06406pt>
+<figuras/Buckling.png, id=562, 1194.71344pt x 1690.06406pt>
 File: figuras/Buckling.png Graphic file (type png)
 <use figuras/Buckling.png>
 Package pdftex.def Info: figuras/Buckling.png  used on input line 27.
 (pdftex.def)             Requested size: 409.49722pt x 579.28186pt.
- [41
+ [42
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.36 
       <./figuras/Buckling.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/shurikens_dg.png, id=554, 1194.71344pt x 1690
+</home/geedai/Desktop/tcc/figuras/shurikens_dg.png, id=569, 1194.71344pt x 1690
 .06406pt>
 File: /home/geedai/Desktop/tcc/figuras/shurikens_dg.png Graphic file (type png)
 
@@ -1366,14 +1366,14 @@ File: /home/geedai/Desktop/tcc/figuras/shurikens_dg.png Graphic file (type png)
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/shurikens_dg.png  use
 d on input line 40.
 (pdftex.def)             Requested size: 409.49722pt x 579.28186pt.
- [42] [43
+ [43] [44
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.49 
       </home/geedai/Desktop/tcc/figuras/shurikens_dg.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/curvature_lines.png, id=566, 650.43pt x 578.1
+</home/geedai/Desktop/tcc/figuras/curvature_lines.png, id=580, 650.43pt x 578.1
 6pt>
 File: /home/geedai/Desktop/tcc/figuras/curvature_lines.png Graphic file (type p
 ng)
@@ -1381,7 +1381,7 @@ ng)
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/curvature_lines.png  
 used on input line 54.
 (pdftex.def)             Requested size: 409.49722pt x 364.00453pt.
-</home/geedai/Desktop/tcc/figuras/curvature_shuriken.png, id=567, 650.43pt x 57
+</home/geedai/Desktop/tcc/figuras/curvature_shuriken.png, id=581, 650.43pt x 57
 8.16pt>
 File: /home/geedai/Desktop/tcc/figuras/curvature_shuriken.png Graphic file (typ
 e png)
@@ -1389,7 +1389,7 @@ e png)
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/curvature_shuriken.pn
 g  used on input line 61.
 (pdftex.def)             Requested size: 409.49722pt x 364.00453pt.
- [44
+ [45
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1401,21 +1401,45 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [45
+)
+<figuras/dftb_dft.png, id=588, 650.43pt x 578.16pt>
+File: figuras/dftb_dft.png Graphic file (type png)
+<use figuras/dftb_dft.png>
+Package pdftex.def Info: figuras/dftb_dft.png  used on input line 78.
+(pdftex.def)             Requested size: 409.49722pt x 364.00453pt.
+ [46
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+l.82 
+     {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} </home/geedai/Desktop/tcc
+/figuras/curvature_shuriken.png>]
+<figuras/dftb_dft_fit.png, id=596, 650.43pt x 578.16pt>
+File: figuras/dftb_dft_fit.png Graphic file (type png)
+<use figuras/dftb_dft_fit.png>
+Package pdftex.def Info: figuras/dftb_dft_fit.png  used on input line 88.
+(pdftex.def)             Requested size: 409.49722pt x 364.00453pt.
+ [47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.92 
+      <./figuras/dftb_dft.png>]) [48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
 l.129 \include{capitulos/cap4_resultados}
-                                         {/usr/share/texmf/fonts/enc/dvips/lm/l
-m-ts1.enc} </home/geedai/Desktop/tcc/figuras/curvature_shuriken.png>]
+                                          <./figuras/dftb_dft_fit.png>]
 \openout2 = `capitulos/cap5_conclusao.aux'.
 
 
 No file capitulos/cap5_conclusao.tex.
 (./main.bbl
 bibitemlist
-) [46
+) [49
 
 
 
@@ -1441,10 +1465,10 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18987 strings out of 476162
- 304647 string characters out of 5794814
- 1949975 words of memory out of 5000000
- 40267 multiletter control sequences out of 15000+600000
+ 19012 strings out of 476162
+ 305175 string characters out of 5794814
+ 1950975 words of memory out of 5000000
+ 40286 multiletter control sequences out of 15000+600000
  629878 words of font info for 165 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  99i,13n,107p,1001b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1462,10 +1486,10 @@ sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (47 pages, 10390240 bytes).
+Output written on main.pdf (50 pages, 11279689 bytes).
 PDF statistics:
- 935 PDF objects out of 1000 (max. 8388607)
- 802 compressed objects within 9 object streams
- 239 named destinations out of 1000 (max. 500000)
- 41569 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 968 PDF objects out of 1000 (max. 8388607)
+ 828 compressed objects within 9 object streams
+ 245 named destinations out of 1000 (max. 500000)
+ 41587 words of extra memory for PDF output out of 42996 (max. 10000000)
 
