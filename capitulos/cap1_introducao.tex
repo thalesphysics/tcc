@@ -1,6 +1,79 @@
 \chapter{Introdução}
 
-Texto da introdução.
+A molécula de hidrogênio ($H_2$) é um dos compostos que carrega a maior densidade de energia em comparação a outros combustíveis utilizados atualmente como por exemplo a gasolina, como indicado na tabela \ref{h2} \cite{shaq2022review}. Isso\
+favorece o uso do $H_2$ como forma de armazenamento e transporte de energia. Além disso, é possível produzir o $H_2$ de forma livre de emissão de poluentes, chamado de hidrogênio verde, por meio de um processo de eletrocatálise.
 
-Exemplo de citação \cite{einstein1905}.
+\begin{table}[h]
+\centering
+\caption{Densidade de energia de diferentes combustíveis. Adaptado de \cite{shaq2022review}}
+\begin{tabular}{lcc}
+\hline
+\textbf{Combustível} & \textbf{PCS (MJ/kg)} & \textbf{PCI (MJ/kg)} \\
+\hline
+Hidrogênio & 141.6 & 119.9 \\
+Propano    & 50.3  & 45.6  \\
+Metanol    & 22.7  & 18.0  \\
+Metano     & 55.5  & 50.0  \\
+Diesel     & 44.8  & 42.5  \\
+Gasolina   & 47.3  & 44.5  \\
+\hline
+\end{tabular}
+\label{h2}
+\end{table}
 
+Um grande impecílio na produção de hidrogênio verde é o alto gasto de energia elétrica durante a eletrocatálise, que é refletido no alto custo de produção em relação a outros métodos, como exibido na tabela \ref{h2price}.\
+Esse alto custo de produção pode ser mitigado pelo uso de catalizadores, que reduzem o gasto energetico durando a eletrocatálise.
+
+\begin{table}[h]
+\centering
+\caption{Tipos de hidrogênio, intensidade de carbono e custo de produção. Adaptado de \cite{reda2025green}}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccc}
+\hline
+\textbf{Tipo de Hidrogênio} & \textbf{Intensidade de Carbono} & \textbf{Custo (\$/kg H$_2$)} \\
+\hline
+Hidrogênio Verde (Eletrólise) & 0 gCO$_2$e/MJ & 6 -- 8 \\
+Hidrogênio cinza (gás natural) & +12 kgCO$_2$/kg H$_2$ & 2 -- 6 \\
+Hidrogênio marrom (carvão) & +20 kgCO$_2$/kg H$_2$ & 2 -- 3 \\
+Hidrogênio cinza com CCS & +12 kgCO$_2$/kg H$_2$ (com CCS) & 4 -- 8 \\
+Hidrogênio marrom com CCS & +20 kgCO$_2$/kg H$_2$ (com CCS) & 4 -- 5 \\
+\hline
+\end{tabular}
+}
+\label{h2price}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figuras/emission_price.png}
+    \caption{Relação entre a quantidade de emissão de $CO_2$ e o preço de cada método de produção de $H_2$. Retirado de \cite{ryabicheva2025lab}}
+    %\label{dftb_dft}
+\end{figure}
+
+Atualmente, os melhores catalizadores são baseados principalmente na platina, que por sua vez possui um alto custo por massa. A figura \ref{custo} apresenta o sobrepotêncial pelo custo dos metais, de modo que materiais com um sobrepotêncial\
+menor possuem uma melhor eficiência para o uso como catalizador. É notável que os materiais mais abaixo, apesar de serem os mais eficientes, possuem um custo muito alto \cite{ryabicheva2025lab}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figuras/eficienciaporcusto.png}
+    \caption{Sobrepotêncial por custo de metais para o uso como catalizadores na produção de hidrogênio. Retirado de \cite{ryabicheva2025lab}}
+    \label{custo}
+\end{figure}
+
+O alto custo dos catalizadores para produção de hidrogênio motiva o desenvolvimento de novos materiais mais eficientes e de menor custo. A figura \ref{publicacoes} demonstra um crescimento no número de publicações em pesquisas relacionadas a produção de hidrogênio nos últimos anos \cite{catumba2023sustainability}.\
+Isso demonstra o grande esforço científico nesse tema.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figuras/publicacoes.png}
+    \caption{Publicações anuais em produção de hidrogênio entre 2010 e 2022. Retirado de \cite{catumba2023sustainability}}
+    \label{publicacoes}
+\end{figure}
+
+Dentre todos os métodos teóricos utilizados para o estudo das propriedades dos materiais, o DFT (Density Functional Theory) se destaca pela sua versatibilidade e eficiência, sendo amplamente utilizado, especialmente no campo da energia, como sugere a figura \ref{dft_energia} \cite{haunschild2016evolution}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figuras/dft_energia.png}
+    \caption{Crescimento do número de publicações utilizando DFT por área de estudo. Retirado de \cite{catumba2023sustainability}}
+    \label{dft_energia}
+\end{figure}

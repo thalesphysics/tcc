@@ -12,10 +12,18 @@
 \emph{Scientific reports}, Nature Publishing Group UK London, v.~3, n.~1,
   p.~3482, 2013.}
 
-\bibitem[Einstein 1905]{einstein1905}
-\abntrefinfo{Einstein}{EINSTEIN}{1905}
-{EINSTEIN, A. Zur elektrodynamik bewegter körper.
-\emph{Annalen der Physik}, 1905.}
+\bibitem[Catumba et al. 2023]{catumba2023sustainability}
+\abntrefinfo{Catumba et al.}{CATUMBA et al.}{2023}
+{CATUMBA, B.~D. et al. Sustainability and challenges in hydrogen production: An
+  advanced bibliometric analysis.
+\emph{International journal of hydrogen energy}, Elsevier, v.~48, n.~22, p.
+  7975--7992, 2023.}
+
+\bibitem[Haunschild, Barth e Marx 2016]{haunschild2016evolution}
+\abntrefinfo{Haunschild, Barth e Marx}{HAUNSCHILD; BARTH; MARX}{2016}
+{HAUNSCHILD, R.; BARTH, A.; MARX, W. Evolution of dft studies in view of a
+  scientometric perspective.
+\emph{Journal of cheminformatics}, Springer, v.~8, n.~1, p.~52, 2016.}
 
 \bibitem[He et al. 2024]{he2024advances}
 \abntrefinfo{He et al.}{HE et al.}{2024}
@@ -29,6 +37,19 @@
 {HOURAHINE, B. et al. Recent developments in dftb+, a software package for
   efficient atomistic quantum mechanical simulations.
 \emph{The Journal of Physical Chemistry A}, ACS Publications, 2025.}
+
+\bibitem[Reda et al. 2025]{reda2025green}
+\abntrefinfo{Reda et al.}{REDA et al.}{2025}
+{REDA, B. et al. Green hydrogen as a source of renewable energy: a step towards
+  sustainability, an overview.
+\emph{Environment, Development and Sustainability}, Springer, v.~27, n.~12, p.
+  29213--29233, 2025.}
+
+\bibitem[Ryabicheva et al. 2025]{ryabicheva2025lab}
+\abntrefinfo{Ryabicheva et al.}{RYABICHEVA et al.}{2025}
+{RYABICHEVA, M. et al. From lab to market: Economic viability of modern
+  hydrogen evolution reaction catalysts.
+\emph{Fuel}, Elsevier, v.~395, p. 135227, 2025.}
 
 \bibitem[Soler et al. 2002]{soler2002siesta}
 \abntrefinfo{Soler et al.}{SOLER et al.}{2002}

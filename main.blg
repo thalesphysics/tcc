@@ -18,6 +18,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
+Warning--I didn't find a database entry for "shaq2022review"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -27,44 +28,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 7 entries,
+You've used 10 entries,
             6714 wiz_defined-function locations,
-            1243 strings with 11004 characters,
-and the built_in function-call counts, 6079 in all, are:
-= -- 541
-> -- 224
-< -- 16
-+ -- 132
-- -- 65
-* -- 440
-:= -- 867
-add.period$ -- 18
-call.type$ -- 7
-change.case$ -- 80
-chr.to.int$ -- 19
-cite$ -- 6
-duplicate$ -- 270
-empty$ -- 364
-format.name$ -- 328
-if$ -- 1424
+            1267 strings with 12111 characters,
+and the built_in function-call counts, 9573 in all, are:
+= -- 801
+> -- 387
+< -- 31
++ -- 194
+- -- 111
+* -- 730
+:= -- 1300
+add.period$ -- 27
+call.type$ -- 10
+change.case$ -- 130
+chr.to.int$ -- 34
+cite$ -- 9
+duplicate$ -- 440
+empty$ -- 561
+format.name$ -- 558
+if$ -- 2259
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 115
-newline$ -- 38
-num.names$ -- 30
-pop$ -- 155
+missing$ -- 172
+newline$ -- 53
+num.names$ -- 45
+pop$ -- 223
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 48
 quote$ -- 0
-skip$ -- 367
+skip$ -- 545
 stack$ -- 1
-substring$ -- 232
-swap$ -- 144
-text.length$ -- 12
+substring$ -- 391
+swap$ -- 254
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 44
+while$ -- 70
 width$ -- 0
-write$ -- 108
+write$ -- 165
+(There was 1 warning)
