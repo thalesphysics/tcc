@@ -19,6 +19,12 @@
 \emph{International journal of hydrogen energy}, Elsevier, v.~48, n.~22, p.
   7975--7992, 2023.}
 
+\bibitem[Cooper et al. 2012]{cooper2012experimental}
+\abntrefinfo{Cooper et al.}{COOPER et al.}{2012}
+{COOPER, D.~R. et al. Experimental review of graphene.
+\emph{International Scholarly Research Notices}, Wiley Online Library, v.~2012,
+  n.~1, p. 501686, 2012.}
+
 \bibitem[Haunschild, Barth e Marx 2016]{haunschild2016evolution}
 \abntrefinfo{Haunschild, Barth e Marx}{HAUNSCHILD; BARTH; MARX}{2016}
 {HAUNSCHILD, R.; BARTH, A.; MARX, W. Evolution of dft studies in view of a
@@ -38,6 +44,13 @@
   efficient atomistic quantum mechanical simulations.
 \emph{The Journal of Physical Chemistry A}, ACS Publications, 2025.}
 
+\bibitem[Ishaq, Dincer e Crawford 2022]{ishaq2022review}
+\abntrefinfo{Ishaq, Dincer e Crawford}{ISHAQ; DINCER; CRAWFORD}{2022}
+{ISHAQ, H.; DINCER, I.; CRAWFORD, C. A review on hydrogen production and
+  utilization: Challenges and opportunities.
+\emph{International journal of hydrogen energy}, Elsevier, v.~47, n.~62, p.
+  26238--26264, 2022.}
+
 \bibitem[Reda et al. 2025]{reda2025green}
 \abntrefinfo{Reda et al.}{REDA et al.}{2025}
 {REDA, B. et al. Green hydrogen as a source of renewable energy: a step towards
@@ -50,6 +63,12 @@
 {RYABICHEVA, M. et al. From lab to market: Economic viability of modern
   hydrogen evolution reaction catalysts.
 \emph{Fuel}, Elsevier, v.~395, p. 135227, 2025.}
+
+\bibitem[Sasirekha e Chen 2021]{sasirekha2021carbonaceous}
+\abntrefinfo{Sasirekha e Chen}{SASIREKHA; CHEN}{2021}
+{SASIREKHA, N.; CHEN, Y.-W. Carbonaceous nanomaterials for environmental
+  remediation. In:  \emph{Nanostructured Materials for Environmental
+  Applications}. [S.l.]: Springer, 2021. p. 321--364.}
 
 \bibitem[Soler et al. 2002]{soler2002siesta}
 \abntrefinfo{Soler et al.}{SOLER et al.}{2002}

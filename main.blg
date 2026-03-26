@@ -1,7 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: capitulos/cap1_introducao.aux
+I couldn't open auxiliary file capitulos/cap1_introducao.aux
+---line 38 of file main.aux
+ : \@input{capitulos/cap1_introducao.aux
+ :                                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: capitulos/cap2_fundamentacao.aux
 A level-1 auxiliary file: capitulos/cap3_metodologia.aux
 A level-1 auxiliary file: capitulos/cap4_resultados.aux
@@ -18,7 +22,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
-Warning--I didn't find a database entry for "shaq2022review"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -28,45 +31,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 10 entries,
+You've used 13 entries,
             6714 wiz_defined-function locations,
-            1267 strings with 12111 characters,
-and the built_in function-call counts, 9573 in all, are:
-= -- 801
-> -- 387
-< -- 31
-+ -- 194
-- -- 111
-* -- 730
-:= -- 1300
-add.period$ -- 27
-call.type$ -- 10
-change.case$ -- 130
-chr.to.int$ -- 34
-cite$ -- 9
-duplicate$ -- 440
-empty$ -- 561
-format.name$ -- 558
-if$ -- 2259
+            1285 strings with 12777 characters,
+and the built_in function-call counts, 12653 in all, are:
+= -- 1040
+> -- 513
+< -- 40
++ -- 242
+- -- 148
+* -- 969
+:= -- 1681
+add.period$ -- 38
+call.type$ -- 13
+change.case$ -- 170
+chr.to.int$ -- 43
+cite$ -- 12
+duplicate$ -- 592
+empty$ -- 771
+format.name$ -- 736
+if$ -- 3002
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 172
-newline$ -- 53
-num.names$ -- 45
-pop$ -- 223
+missing$ -- 226
+newline$ -- 67
+num.names$ -- 60
+pop$ -- 291
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 62
 quote$ -- 0
-skip$ -- 545
+skip$ -- 710
 stack$ -- 1
-substring$ -- 391
-swap$ -- 254
-text.length$ -- 23
+substring$ -- 537
+swap$ -- 345
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 1
 warning$ -- 0
-while$ -- 70
+while$ -- 95
 width$ -- 0
-write$ -- 165
-(There was 1 warning)
+write$ -- 217
+(There was 1 error message)

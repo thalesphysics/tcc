@@ -10,66 +10,66 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{9}{chapter.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Postulados da Mecânica Quântica}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Primeiro Postulado}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Segundo Postulado}{14}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Terceiro Postulado}{14}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Quarto Postulado}{14}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Quinto Postulado}{15}{subsection.2.1.5}%
-\contentsline {section}{\numberline {2.2}Estados Estacionários}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Princípio da Exclusão de Pauli}{16}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Sistemas Multieletrônicos}{17}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Aproximação de Born-Oppenheimer}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Aproximação de Elétrons Independentes}{18}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Apoximação de Potêncial Médio}{19}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Limitações Teóricas e Computacionais}{20}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{21}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema de Hohenberg-Kohn}{22}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Segundo Teorema de Hohenberg-Kohn}{22}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}A Equação de Kohn-Sham}{22}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Funcional da Densidade com Ligações Fortes}{23}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Aproximação do Termo Repulsivo}{25}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Aproximação do Termo de Coulomb}{25}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Equação de Autovalores e Autovetores do DFTB}{26}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}O Grafeno}{27}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Defeitos no Grafeno}{28}{subsection.2.7.1}%
-\contentsline {section}{\numberline {2.8}Reação de Evolução de Hidrogênio (HER)}{29}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Aspectos gerais da HER}{29}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Mecanismos elementares da HER}{30}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Etapa de Volmer}{30}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Etapa de Heyrovsky}{30}{subsection.2.8.4}%
-\contentsline {subsubsection}{\numberline {2.8.4.1}Etapa de Tafel}{31}{subsubsection.2.8.4.1}%
-\contentsline {subsection}{\numberline {2.8.5}Catálise heterogênea na HER}{31}{subsection.2.8.5}%
-\contentsline {subsection}{\numberline {2.8.6}Princípio de Sabatier}{31}{subsection.2.8.6}%
-\contentsline {subsection}{\numberline {2.8.7}Descritores catalíticos para a HER}{32}{subsection.2.8.7}%
-\contentsline {subsection}{\numberline {2.8.8}Importância dos estudos computacionais}{32}{subsection.2.8.8}%
-\contentsline {section}{\numberline {2.9}Modelo do Eletrodo de Hidrogênio Computacional}{32}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}Descrição geral do modelo}{32}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Referência termodinâmica do eletrodo de hidrogênio}{32}{subsection.2.9.2}%
-\contentsline {subsection}{\numberline {2.9.3}Energia livre associada à adsorção do hidrogênio}{33}{subsection.2.9.3}%
-\contentsline {subsection}{\numberline {2.9.4}Definição da energia livre de adsorção}{33}{subsection.2.9.4}%
-\contentsline {subsection}{\numberline {2.9.5}Separação dos termos energéticos}{33}{subsection.2.9.5}%
-\contentsline {subsection}{\numberline {2.9.6}Interpretação física dos termos}{34}{subsection.2.9.6}%
-\contentsline {subsection}{\numberline {2.9.7}Relação com a atividade catalítica}{34}{subsection.2.9.7}%
-\contentsline {subsection}{\numberline {2.9.8}Limitações do modelo}{34}{subsection.2.9.8}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Postulados da Mecânica Quântica}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Primeiro Postulado}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Segundo Postulado}{16}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Terceiro Postulado}{16}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Quarto Postulado}{16}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Quinto Postulado}{17}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Estados Estacionários}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Princípio da Exclusão de Pauli}{18}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Sistemas Multieletrônicos}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Aproximação de Born-Oppenheimer}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Aproximação de Elétrons Independentes}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Apoximação de Potêncial Médio}{21}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Limitações Teóricas e Computacionais}{22}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{23}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema de Hohenberg-Kohn}{24}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Segundo Teorema de Hohenberg-Kohn}{24}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}A Equação de Kohn-Sham}{24}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Funcional da Densidade com Ligações Fortes}{25}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Aproximação do Termo Repulsivo}{27}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Aproximação do Termo de Coulomb}{27}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Equação de Autovalores e Autovetores do DFTB}{28}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}O Grafeno}{29}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Defeitos no Grafeno}{30}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.8}Reação de Evolução de Hidrogênio (HER)}{31}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Aspectos gerais da HER}{31}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Mecanismos elementares da HER}{32}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Etapa de Volmer}{32}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Etapa de Heyrovsky}{32}{subsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.4.1}Etapa de Tafel}{33}{subsubsection.2.8.4.1}%
+\contentsline {subsection}{\numberline {2.8.5}Catálise heterogênea na HER}{33}{subsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.8.6}Princípio de Sabatier}{33}{subsection.2.8.6}%
+\contentsline {subsection}{\numberline {2.8.7}Descritores catalíticos para a HER}{34}{subsection.2.8.7}%
+\contentsline {subsection}{\numberline {2.8.8}Importância dos estudos computacionais}{34}{subsection.2.8.8}%
+\contentsline {section}{\numberline {2.9}Modelo do Eletrodo de Hidrogênio Computacional}{34}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Descrição geral do modelo}{34}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Referência termodinâmica do eletrodo de hidrogênio}{34}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Energia livre associada à adsorção do hidrogênio}{35}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Definição da energia livre de adsorção}{35}{subsection.2.9.4}%
+\contentsline {subsection}{\numberline {2.9.5}Separação dos termos energéticos}{35}{subsection.2.9.5}%
+\contentsline {subsection}{\numberline {2.9.6}Interpretação física dos termos}{36}{subsection.2.9.6}%
+\contentsline {subsection}{\numberline {2.9.7}Relação com a atividade catalítica}{36}{subsection.2.9.7}%
+\contentsline {subsection}{\numberline {2.9.8}Limitações do modelo}{36}{subsection.2.9.8}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Criação das estruturas}{35}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Formação da Folha de Grafeno}{35}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Formação dos Defeitos de Stone-Wales}{37}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Estruturas Estudadas}{38}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Pacotes Computacionais Utilizados}{41}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Ambiente Computacional}{41}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Base de Funções, e Funcional de Troca}{41}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Condições de Contorno e Tamanho das Células}{42}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Precisão Numérica}{42}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Minimização da Energia}{42}{subsection.3.3.4}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Criação das estruturas}{37}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Formação da Folha de Grafeno}{37}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Formação dos Defeitos de Stone-Wales}{39}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Estruturas Estudadas}{40}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Pacotes Computacionais Utilizados}{43}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Ambiente Computacional}{43}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Base de Funções, e Funcional de Troca}{43}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Condições de Contorno e Tamanho das Células}{44}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Precisão Numérica}{44}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Minimização da Energia}{44}{subsection.3.3.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados e Discussão}}{43}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Estruturas de Linhas de Defeitos}{43}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Estruturas de Shuriken}{47}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analise da Curvatura}{49}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comparação Entre DFTB e DFT}{50}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados e Discussão}}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estruturas de Linhas de Defeitos}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Estruturas de Shuriken}{49}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analise da Curvatura}{51}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparação Entre DFTB e DFT}{52}{section.4.4}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{53}{section*.9}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{55}{section*.9}%

@@ -1,11 +1,11 @@
 \chapter{Introdução}
 
-A molécula de hidrogênio ($H_2$) é um dos compostos que carrega a maior densidade de energia em comparação a outros combustíveis utilizados atualmente como por exemplo a gasolina, como indicado na tabela \ref{h2} \cite{shaq2022review}. Isso\
+A molécula de hidrogênio $H_2$ é um dos compostos que carrega a maior densidade de energia em comparação a outros combustíveis utilizados atualmente como por exemplo a gasolina, como indicado na tabela \ref{h2} \cite{ishaq2022review}. Isso\
 favorece o uso do $H_2$ como forma de armazenamento e transporte de energia. Além disso, é possível produzir o $H_2$ de forma livre de emissão de poluentes, chamado de hidrogênio verde, por meio de um processo de eletrocatálise.
 
 \begin{table}[h]
 \centering
-\caption{Densidade de energia de diferentes combustíveis. Adaptado de \cite{shaq2022review}}
+\caption{Densidade de energia de diferentes combustíveis. Adaptado de \cite{ishaq2022review}}
 \begin{tabular}{lcc}
 \hline
 \textbf{Combustível} & \textbf{PCS (MJ/kg)} & \textbf{PCI (MJ/kg)} \\
@@ -69,11 +69,37 @@ Isso demonstra o grande esforço científico nesse tema.
     \label{publicacoes}
 \end{figure}
 
-Dentre todos os métodos teóricos utilizados para o estudo das propriedades dos materiais, o DFT (Density Functional Theory) se destaca pela sua versatibilidade e eficiência, sendo amplamente utilizado, especialmente no campo da energia, como sugere a figura \ref{dft_energia} \cite{haunschild2016evolution}.
+Dentre todos os métodos teóricos utilizados para o estudo das propriedades dos materiais, o DFT (Density Functional Theory) se destaca pela sua alta versatibilidade e eficiência, sendo amplamente utilizado, especialmente no campo da energia, como sugere a figura \ref{dft_energia} \cite{haunschild2016evolution}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{figuras/dft_energia.png}
-    \caption{Crescimento do número de publicações utilizando DFT por área de estudo. Retirado de \cite{catumba2023sustainability}}
+    \caption{Crescimento do número de publicações utilizando DFT por área de estudo. Retirado de \cite{haunschild2016evolution}}
     \label{dft_energia}
 \end{figure}
+
+O DFT é capaz de prever a partir de primeiros princípios, com uma boa confiabilidade, o quão eficaz um material será como catalizador. Isso facilita determinar bons catalizadores antes de sua síntese, guiando a pesquisa de maneira mais rápida e eficiente.\
+Além disso, permite uma melhor compreensão de como os aspectos microscópicos do material afetam a termodinâmica da catálise.
+
+Diferentemente da platina, o materiais de carbono são fácilmente encontrados na natureza e sintetizados. Suas geometrias e propriedades físicas podem variar muito a depender da organização dos átomos de carbono, podendo ser isolantes, como no caso do diamante, ou condutores, como no caso do grafite.
+
+O grafeno é um material bidimensional composto apenas por aneis hexagonais de átomos de carbono que possui algumas características interessantes, como sua alta condutividade elétrica e térmica, alta resistência mecânica, e grande área superficial. Contudo, o grafeno pristino não é propício para o uso como catalizador por conta de sua fraca interação com o hidrogênio \cite{cooper2012experimental}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figuras/carbons.png}
+    \caption{Nanomateriais de carbono. Retirado de \cite{sasirekha2021carbonaceous}}
+    \label{carbons}
+\end{figure}
+
+Todo processo de sintese do grafeno está sujeito a formação de defeitos estruturais, como a falta de átomos, ou a formação de aneis não hexagonais de carbono \cite{cooper2012experimental}. Entretanto, a influência desses defeitos sobre eficiência catalítica do grafeno na produção de hidrogênio não é completamente entendida.
+Dessa forma, o objetivo principal desta pesquisa é determinar, por meio de simulações computacionas de DFT ou DFTB, como os defeitos, em especial os defeitos de Stone-Wales, afetam os processos catalíticos no grafeno.\
+Adicionalmente, visando prever configurações ótimas dos defeitos para a melhor eficiência da catálise.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figuras/sw.jpg}
+    \caption{Defeitos de Stone Wales no grafeno. Retirado de \cite{cooper2012experimental}}
+    \label{carbons}
+\end{figure}
+
