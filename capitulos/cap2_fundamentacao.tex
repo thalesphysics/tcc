@@ -18,20 +18,20 @@ Assim como na mecânica clássica os sistemas são definidos por um conjunto de 
 \end{equation}
 ou para estados contínuos (como a posição de uma partícula) como uma integral sobre todos os estados:
 \begin{equation}
-|\psi \rangle = \int dk c(k) |k \rangle.
+|\psi \rangle = \int dk ~c(k) |k \rangle.
 \end{equation}
 
 \subsection{Segundo Postulado}
 
-O fato de o estado de um sistema quântico ser uma combinação linear de seus possíveis estados não possui por si só um significado físico evidente. Portanto uma interpretação é postulada para que possamos compreender o que o formalismo matemático representa na realidade. O segundo postulado da mecânica quântica afirma que se os estados são ortonormais – isto é
+O fato de o estado de um sistema quântico ser uma combinação linear de seus possíveis estados não possui por si só um significado físico evidente. Portanto uma interpretação é postulada para que possamos compreender o que o formalismo matemático representa na realidade. O segundo postulado da mecânica quântica afirma que se os estados são ortonormais, isto é
 \begin{equation}
 \langle i | j \rangle = \delta_{ij}
 \end{equation}
-no caso discreto e
+no caso discreto, em que $\delta_{ij}$ é o delta de Kronecker, ou
 \begin{equation}
 \langle \xi | \xi' \rangle = \delta(\xi-\xi')
 \end{equation}
-no caso contínuo – então a probabilidade de se encontrar o sistema no estado $|k\rangle$ é dada por $|\langle k | \psi \rangle|^2$. Desse modo a probabilidade total de encontrar o sistema em qualquer estado é unitária:
+no caso contínuo, em que $\delta(\xi-\xi')$ é a distribuição delta de dirac. Então a probabilidade de se encontrar o sistema no estado $|k\rangle$ é dada por $|\langle k | \psi \rangle|^2$. Desse modo a probabilidade total de encontrar o sistema em qualquer estado é unitária:
 \begin{equation}
 \langle \psi | \psi \rangle = \left( \sum_k c_k^* \langle k | \right) \left( \sum_k c_k |k\rangle \right) = \sum_k |c_k|^2 = \sum_k |\langle k | \psi \rangle|^2 = 1
 \end{equation}
@@ -77,7 +77,7 @@ Se conhecermos o estado de um sistema quântico em um dado instante e desejamos 
 \begin{equation}
 i\hbar \frac{\partial}{\partial t}|\psi\rangle = \hat{H} |\psi\rangle,
 \end{equation}
-em que $\hat{H}$ é o operador hamiltoniano
+em que $\hat{H}$ é o operador hamiltoniano, definido pela soma do operador de energia cinética mais a energia potêncial do sistema:
 \begin{equation}
 \hat{H} = \frac{\hat{p}^2}{2m} + \hat{V},
 \end{equation}
@@ -172,12 +172,14 @@ uma série de Aproximação que nos ajudam a lidar com esses sistemas, e algumas
 para corrigir incongruencias teóricas.
 
 O objeto mais fundamental no estudo de sistemas Multieletrônicos é a hamiltoniana geral para um conjunto de átomos. \
-Como tratamos de um sistema isolado e conservativo, a hamiltoniana é apeans a soma da energia cinética e potencial dos prótons e elétrons, \
+Como tratamos de um sistema isolado e conservativo, a hamiltoniana é apenas a soma da energia cinética e potencial dos prótons e elétrons, \
 que nesse caso se resume ao potencial de coulomb;
 \begin{equation}
     H(r,p) = \sum_k \frac{p^2_{k}}{2m_e} + \sum_k \frac{P^2_{k}}{2m_n} + \frac{1}{2} \sum_{i \neq j} \frac{k e^2 Z_i Z_j}{|\vec{R}_i-\vec{R}_j|} - \sum_{i,j} \frac{k e^2 Z_i}{|\vec{R}_i-\vec{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{ke^2}{|\vec{r}_i - \vec{r}_j|}
 \end{equation}
-pelo terceiro postulado, o operador hamiltoniano é obtido promovendo a posição e o momento a operadores. Assim, 
+em que $p_k$ são os momentos lineares dos elétrons, $P_k$ são os momento dos núcleos, $m_k$ e $M_k$ são as massas dos elétrons e núcleos, $r_i$ e $R_i$ são as posições dos elétrons e núcleos, $Z_i$ são as cargas nucleares, $e$ é a carga elementar do elétron, e $k$ é a constante de coulomb.
+
+Pelo terceiro postulado, o operador hamiltoniano é obtido promovendo a posição e o momento a operadores. Assim, 
 \begin{equation}
     \hat H =  \sum_k \frac{\hat p_{k}^2}{2m_e} + \sum_k \frac{\hat P_{k}^2}{2m_n} + \frac{1}{2} \sum_{i \neq j} \frac{k e^2 Z_i Z_j}{|\hat R_i-\hat R_j|} - \sum_{i,j} \frac{k e^2 Z_i}{|\hat{R}_i-\hat{r}_j|} + \frac{1}{2} \sum_{i\neq j} \frac{ke^2}{|\hat{r}_i - \hat{r}_j|}
 \end{equation}
@@ -243,7 +245,7 @@ Além disso, a densidade elétronica pode ser obtida simplesmente pela soma da d
     \rho(\vec{r}) = \sum_{i=1}^N |\psi(\vec{r})|^2
 \end{equation}
 
-\subsection{Apoximação de Potêncial Médio}
+\subsection{Aproximação de Potêncial Médio}
 
 De maneira geral, o termo de interação eletrônica dificulta a resoluçao da equação \ref{BOeq}. Contudo, ao\
 desprezarmos esse termo, perdemos uma parte importante da descrição do sistema. Assim, como uma maneira de\
@@ -254,6 +256,8 @@ Dessa forma, pela lei de Gauss, temos que
 \begin{equation}
     \nabla^2 V_H(\vec{r}) = - 4 \pi \rho(\vec{r})
 \end{equation}
+em que $\rho(\vec{r})$ é a densidade de carga do sistema.
+
 Essa equação diferencial possui solução conhecida para o potêncial $V_H(\vec{r})$,
 \begin{equation}
     V_H(\vec{r})=\int \frac{\rho(\vec{r'})}{|\vec{r}-\vec{r'}|}~{dr'}^3

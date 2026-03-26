@@ -22,7 +22,7 @@
 \contentsline {section}{\numberline {2.4}Sistemas Multieletrônicos}{19}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Aproximação de Born-Oppenheimer}{20}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Aproximação de Elétrons Independentes}{20}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Apoximação de Potêncial Médio}{21}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Aproximação de Potêncial Médio}{21}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Limitações Teóricas e Computacionais}{22}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}A Teoria do Funcional da Densidade}{23}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Primeiro Teorema de Hohenberg-Kohn}{24}{subsection.2.5.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.27)  25 MAR 2026 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.27)  26 MAR 2026 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,7 +990,7 @@ Overfull \hbox (2.79364pt too wide) in paragraph at lines 17--17
 \openout2 = `capitulos/cap1_introducao.aux'.
 
  (./capitulos/cap1_introducao.tex
-<figuras/emission_price.png, id=318, 1099.10625pt x 787.94376pt>
+<figuras/emission_price.png, id=316, 1099.10625pt x 787.94376pt>
 File: figuras/emission_price.png Graphic file (type png)
 <use figuras/emission_price.png>
 Package pdftex.def Info: figuras/emission_price.png  used on input line 48.
@@ -1011,7 +1011,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.52 
      ]
-<figuras/eficienciaporcusto.png, id=331, 608.2725pt x 879.285pt>
+<figuras/eficienciaporcusto.png, id=329, 608.2725pt x 879.285pt>
 File: figuras/eficienciaporcusto.png Graphic file (type png)
 <use figuras/eficienciaporcusto.png>
 Package pdftex.def Info: figuras/eficienciaporcusto.png  used on input line 58.
@@ -1024,7 +1024,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.62 
       <./figuras/emission_price.png>]
-<figuras/publicacoes.png, id=346, 1274.7625pt x 747.79375pt>
+<figuras/publicacoes.png, id=344, 1274.7625pt x 747.79375pt>
 File: figuras/publicacoes.png Graphic file (type png)
 <use figuras/publicacoes.png>
 Package pdftex.def Info: figuras/publicacoes.png  used on input line 67.
@@ -1036,7 +1036,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.71 
       <./figuras/eficienciaporcusto.png>]
-<figuras/dft_energia.png, id=359, 1567.8575pt x 744.7825pt>
+<figuras/dft_energia.png, id=357, 1567.8575pt x 744.7825pt>
 File: figuras/dft_energia.png Graphic file (type png)
 <use figuras/dft_energia.png>
 Package pdftex.def Info: figuras/dft_energia.png  used on input line 76.
@@ -1056,12 +1056,12 @@ has been already used, duplicate ignored
 l.84 D
       iferentemente da platina, o materiais de carbono são fácilmente enco...
  <./figuras/publicacoes.png> <./figuras/dft_energia.png>]
-<figuras/carbons.png, id=373, 687.56876pt x 567.11874pt>
+<figuras/carbons.png, id=371, 687.56876pt x 567.11874pt>
 File: figuras/carbons.png Graphic file (type png)
 <use figuras/carbons.png>
 Package pdftex.def Info: figuras/carbons.png  used on input line 90.
 (pdftex.def)             Requested size: 318.49861pt x 262.70367pt.
-<figuras/sw.jpg, id=380, 127.13719pt x 117.71066pt>
+<figuras/sw.jpg, id=378, 127.13719pt x 117.71066pt>
 File: figuras/sw.jpg Graphic file (type jpg)
 <use figuras/sw.jpg>
 Package pdftex.def Info: figuras/sw.jpg  used on input line 101.
@@ -1089,8 +1089,13 @@ l.150 \include{capitulos/cap1_introducao}
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-mathex.enc}] [16] [17]
-[18] [19] [20]
-Overfull \hbox (5.49274pt too wide) detected at line 236
+[18] [19]
+
+LaTeX Warning: Reference `multieletronh' on page 20 undefined on input line 197
+.
+
+[20]
+Overfull \hbox (5.49274pt too wide) detected at line 238
 [][][][] [] \OML/lmm/m/it/12  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12  []\OT1/lm
 r/m/n/12 ([])\OML/lmm/m/it/12 dr[] []  []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12  
 []\OT1/lmr/m/n/12 ([])\OML/lmm/m/it/12 dr[]::: []  []\OT1/lmr/m/n/12 ([])[]\OML
@@ -1103,7 +1108,7 @@ m/n/12 = \OML/lmm/m/it/12 E
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.294 \multirow
+l.298 \multirow
                {2}{*}{Hartree--Fock}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1114,7 +1119,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.299 \multirow
+l.303 \multirow
                {4}{*}{Perturbação (MPn)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1125,7 +1130,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.306 \multirow
+l.310 \multirow
                {4}{*}{Configuration Interaction}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1136,7 +1141,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.313 \multirow
+l.317 \multirow
                {5}{*}{Coupled Cluster}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1147,7 +1152,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.321 \multirow
+l.325 \multirow
                {3}{*}{DFT (Kohn--Sham)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1158,7 +1163,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.327 \multirow
+l.331 \multirow
                {3}{*}{DFT híbrido}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1169,7 +1174,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.333 \multirow
+l.337 \multirow
                {4}{*}{DFT avançado}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1180,7 +1185,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.340 \multirow
+l.344 \multirow
                {3}{*}{Métodos semiempíricos}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1191,7 +1196,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.346 \multirow
+l.350 \multirow
                {3}{*}{Escalabilidade linear}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1202,7 +1207,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.352 \multirow
+l.356 \multirow
                {2}{*}{Monte Carlo}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1213,7 +1218,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.357 \multirow
+l.361 \multirow
                {3}{*}{Correlação forte}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1226,86 +1231,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.374 
+l.378 
       ] [24]
-Overfull \hbox (6.03465pt too wide) detected at line 428
+Overfull \hbox (6.03465pt too wide) detected at line 432
 [][][][] [] [] \OML/lmm/m/it/12 ^^N [] d[]r \OT1/lmr/m/n/12 = 0
  []
 
 [25] [26]
-Overfull \hbox (3.52794pt too wide) detected at line 577
+Overfull \hbox (3.52794pt too wide) detected at line 581
 [][][]\OML/lmm/m/it/12 E[] \OT1/lmr/m/n/12 = [] [] [] \OML/lmm/m/it/12 d[]rd[]r
 [] \OT1/lmr/m/n/12 = [] [] [] \OML/lmm/m/it/12 d[]rd[]r[]
  []
 
 [27] [28]
-Overfull \hbox (6.68427pt too wide) in paragraph at lines 645--647
+Overfull \hbox (6.68427pt too wide) in paragraph at lines 649--651
 []\T1/lmr/m/n/12 (-20) O gra-feno � uma ma-te-rial com-posto por uma ape-nas um
 a ca-mada at�-mica, caracterizando-
  []
 
-</home/geedai/Desktop/tcc/figuras/vmdscene.dat.png, id=546, 1354.05875pt x 728.
+</home/geedai/Desktop/tcc/figuras/vmdscene.dat.png, id=544, 1354.05875pt x 728.
 7225pt>
 File: /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png Graphic file (type png)
 
 <use /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/vmdscene.dat.png  use
-d on input line 652.
+d on input line 656.
 (pdftex.def)             Requested size: 455.0pt x 244.87132pt.
 [29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.660 
+l.664 
        </home/geedai/Desktop/tcc/figuras/vmdscene.dat.png>]
-</home/geedai/Desktop/tcc/figuras/defeitos.png, id=553, 1578.89874pt x 868.2437
+</home/geedai/Desktop/tcc/figuras/defeitos.png, id=551, 1578.89874pt x 868.2437
 4pt>
 File: /home/geedai/Desktop/tcc/figuras/defeitos.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/defeitos.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/defeitos.png  used on
- input line 663.
+ input line 667.
 (pdftex.def)             Requested size: 455.0pt x 250.20769pt.
-</home/geedai/Desktop/tcc/figuras/defeitos_experimento.png, id=558, 1135.24126p
+</home/geedai/Desktop/tcc/figuras/defeitos_experimento.png, id=556, 1135.24126p
 t x 794.97pt>
 File: /home/geedai/Desktop/tcc/figuras/defeitos_experimento.png Graphic file (t
 ype png)
 <use /home/geedai/Desktop/tcc/figuras/defeitos_experimento.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/defeitos_experimento.
-png  used on input line 669.
+png  used on input line 673.
 (pdftex.def)             Requested size: 455.0pt x 318.62527pt.
  [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.672 
+l.676 
        </home/geedai/Desktop/tcc/figuras/defeitos.png>] [31
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.689 \end{equation}
+l.693 \end{equation}
                      </home/geedai/Desktop/tcc/figuras/defeitos_experimento.png
 >]
-</home/geedai/Desktop/tcc/figuras/tafel.png, id=576, 1391.1975pt x 654.445pt>
+</home/geedai/Desktop/tcc/figuras/tafel.png, id=574, 1391.1975pt x 654.445pt>
 File: /home/geedai/Desktop/tcc/figuras/tafel.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/tafel.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/tafel.png  used on in
-put line 740.
+put line 744.
 (pdftex.def)             Requested size: 455.0pt x 214.0402pt.
  [32] [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.756 
+l.760 
        </home/geedai/Desktop/tcc/figuras/tafel.png>] [34] [35]) [36]
 \openout2 = `capitulos/cap3_metodologia.aux'.
 
 
 (./capitulos/cap3_metodologia.tex
-</home/geedai/Desktop/tcc/figuras/celula.png, id=617, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/celula.png, id=615, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/celula.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/celula.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/celula.png  used on i
@@ -1323,14 +1328,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.41 \begin{equation}
                       </home/geedai/Desktop/tcc/figuras/celula.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/CriaDefeito.png, id=629, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/CriaDefeito.png, id=627, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/CriaDefeito.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/CriaDefeito.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/CriaDefeito.png  used
  on input line 84.
 (pdftex.def)             Requested size: 455.0pt x 454.99464pt.
 [39]
-</home/geedai/Desktop/tcc/figuras/linhas.png, id=639, 963.6pt x 963.6pt>
+</home/geedai/Desktop/tcc/figuras/linhas.png, id=637, 963.6pt x 963.6pt>
 File: /home/geedai/Desktop/tcc/figuras/linhas.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/linhas.png>
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/linhas.png  used on i
@@ -1343,7 +1348,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
                                                   \__shipout_drop_firstpage_...
 l.98 
       </home/geedai/Desktop/tcc/figuras/CriaDefeito.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/shurikens.png, id=644, 1284.8pt x 1835.85875p
+</home/geedai/Desktop/tcc/figuras/shurikens.png, id=642, 1284.8pt x 1835.85875p
 t>
 File: /home/geedai/Desktop/tcc/figuras/shurikens.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/shurikens.png>
@@ -1366,7 +1371,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
                                                   \__shipout_drop_firstpage_...
 l.107 
        </home/geedai/Desktop/tcc/figuras/shurikens.png>]
-</home/geedai/Desktop/tcc/figuras/fluxograma.png, id=659, 2164.085pt x 1415.287
+</home/geedai/Desktop/tcc/figuras/fluxograma.png, id=657, 2164.085pt x 1415.287
 5pt>
 File: /home/geedai/Desktop/tcc/figuras/fluxograma.png Graphic file (type png)
 <use /home/geedai/Desktop/tcc/figuras/fluxograma.png>
@@ -1404,7 +1409,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 156.
 \openout2 = `capitulos/cap4_resultados.aux'.
 
  (./capitulos/cap4_resultados.tex
-</home/geedai/Desktop/tcc/figuras/lines.jpg, id=679, 597.60106pt x 845.26315pt>
+</home/geedai/Desktop/tcc/figuras/lines.jpg, id=677, 597.60106pt x 845.26315pt>
 
 File: /home/geedai/Desktop/tcc/figuras/lines.jpg Graphic file (type jpg)
 <use /home/geedai/Desktop/tcc/figuras/lines.jpg>
@@ -1417,7 +1422,7 @@ put line 10.
 
 
 ]
-</home/geedai/Desktop/tcc/figuras/linesbottom.jpg, id=684, 597.60106pt x 845.26
+</home/geedai/Desktop/tcc/figuras/linesbottom.jpg, id=682, 597.60106pt x 845.26
 315pt>
 File: /home/geedai/Desktop/tcc/figuras/linesbottom.jpg Graphic file (type jpg)
 <use /home/geedai/Desktop/tcc/figuras/linesbottom.jpg>
@@ -1437,7 +1442,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
                                                   \__shipout_drop_firstpage_...
 l.24 
       </home/geedai/Desktop/tcc/figuras/linesbottom.jpg>]
-<figuras/Buckling.png, id=694, 1194.71344pt x 1690.06406pt>
+<figuras/Buckling.png, id=692, 1194.71344pt x 1690.06406pt>
 File: figuras/Buckling.png Graphic file (type png)
 <use figuras/Buckling.png>
 Package pdftex.def Info: figuras/Buckling.png  used on input line 27.
@@ -1449,7 +1454,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
                                                   \__shipout_drop_firstpage_...
 l.36 
       <./figuras/Buckling.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/shurikens_dg.png, id=701, 1194.71344pt x 1690
+</home/geedai/Desktop/tcc/figuras/shurikens_dg.png, id=699, 1194.71344pt x 1690
 .06406pt>
 File: /home/geedai/Desktop/tcc/figuras/shurikens_dg.png Graphic file (type png)
 
@@ -1464,7 +1469,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
                                                   \__shipout_drop_firstpage_...
 l.49 
       </home/geedai/Desktop/tcc/figuras/shurikens_dg.png (PNG copy)>]
-</home/geedai/Desktop/tcc/figuras/curvature_lines.png, id=712, 650.43pt x 578.1
+</home/geedai/Desktop/tcc/figuras/curvature_lines.png, id=710, 650.43pt x 578.1
 6pt>
 File: /home/geedai/Desktop/tcc/figuras/curvature_lines.png Graphic file (type p
 ng)
@@ -1472,7 +1477,7 @@ ng)
 Package pdftex.def Info: /home/geedai/Desktop/tcc/figuras/curvature_lines.png  
 used on input line 54.
 (pdftex.def)             Requested size: 409.49722pt x 364.00453pt.
-</home/geedai/Desktop/tcc/figuras/curvature_shuriken.png, id=713, 650.43pt x 57
+</home/geedai/Desktop/tcc/figuras/curvature_shuriken.png, id=711, 650.43pt x 57
 8.16pt>
 File: /home/geedai/Desktop/tcc/figuras/curvature_shuriken.png Graphic file (typ
 e png)
@@ -1493,7 +1498,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<figuras/dftb_dft.png, id=720, 650.43pt x 578.16pt>
+<figuras/dftb_dft.png, id=718, 650.43pt x 578.16pt>
 File: figuras/dftb_dft.png Graphic file (type png)
 <use figuras/dftb_dft.png>
 Package pdftex.def Info: figuras/dftb_dft.png  used on input line 78.
@@ -1506,7 +1511,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.21})
 l.82 
      {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} </home/geedai/Desktop/tcc
 /figuras/curvature_shuriken.png>]
-<figuras/dftb_dft_fit.png, id=728, 650.43pt x 578.16pt>
+<figuras/dftb_dft_fit.png, id=726, 650.43pt x 578.16pt>
 File: figuras/dftb_dft_fit.png Graphic file (type png)
 <use figuras/dftb_dft_fit.png>
 Package pdftex.def Info: figuras/dftb_dft_fit.png  used on input line 88.
@@ -1556,15 +1561,18 @@ L3 programming layer <2020/03/25>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19130 strings out of 476162
- 307803 string characters out of 5794814
+ 19132 strings out of 476162
+ 307823 string characters out of 5794814
  1951975 words of memory out of 5000000
  40370 multiletter control sequences out of 15000+600000
- 630530 words of font info for 171 fonts, out of 8000000 for 9000
+ 630617 words of font info for 172 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  99i,13n,107p,1001b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
@@ -1581,10 +1589,10 @@ sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (56 pages, 12297947 bytes).
+Output written on main.pdf (56 pages, 12299505 bytes).
 PDF statistics:
- 1108 PDF objects out of 1200 (max. 8388607)
- 935 compressed objects within 10 object streams
+ 1106 PDF objects out of 1200 (max. 8388607)
+ 933 compressed objects within 10 object streams
  267 named destinations out of 1000 (max. 500000)
  41625 words of extra memory for PDF output out of 42996 (max. 10000000)
 
